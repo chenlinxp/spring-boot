@@ -1,0 +1,775 @@
+2018-06-29 10:06:51 -Starting BootdoApplication on localhost with PID 7970 (/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes started by chenlin in /Users/chenlin/Documents/workspace/bootdo)
+2018-06-29 10:06:51 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-29 10:06:51 -The following profiles are active: dev
+2018-06-29 10:06:52 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:06:52 CST 2018]; root of context hierarchy
+2018-06-29 10:06:52 -HV000001: Hibernate Validator 5.3.6.Final
+2018-06-29 10:06:53 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-29 10:06:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$791b5521] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$6b7483c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'userRealm' of type [com.bootdo.system.user.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'redisManager' of type [com.bootdo.common.redis.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -获取名称为: com.bootdo.system.user.shiro.UserRealm.authorizationCache 的RedisCache实例
+2018-06-29 10:06:54 -Bean 'redisSessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'sessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:54 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:06:55 -Tomcat initialized with port(s): 8099 (http)
+2018-06-29 10:06:55 -Starting service [Tomcat]
+2018-06-29 10:06:55 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-29 10:06:55 -Initializing Spring embedded WebApplicationContext
+2018-06-29 10:06:55 -Root WebApplicationContext: initialization completed in 2973 ms
+2018-06-29 10:06:55 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 10:06:55 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 10:06:55 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 10:06:55 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 10:06:55 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-06-29 10:06:55 -Filter xssFilter was not registered (disabled)
+2018-06-29 10:06:55 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-29 10:06:55 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-06-29 10:06:55 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-06-29 10:06:55 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-29 10:06:56 -{dataSource-1} inited
+2018-06-29 10:06:57 -ProcessEngine default created
+2018-06-29 10:06:58 -ApplicationContext registed-->org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:06:52 CST 2018]; root of context hierarchy
+2018-06-29 10:06:58 -Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-06-29 10:06:58 -Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-06-29 10:06:59 -Using default implementation for ThreadExecutor
+2018-06-29 10:06:59 -Job execution threads will use class loader of thread: main
+2018-06-29 10:06:59 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-29 10:06:59 -Quartz Scheduler v.2.2.1 created.
+2018-06-29 10:06:59 -RAMJobStore initialized.
+2018-06-29 10:06:59 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-29 10:06:59 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-06-29 10:06:59 -Quartz scheduler version: 2.2.1
+2018-06-29 10:06:59 -JobFactory set to: com.bootdo.common.quartz.factory.JobFactory@5a6af2c4
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/{id}],methods=[DELETE]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.remove(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.ModelController.list(int,int)
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.batchRemove(java.lang.String[])
+2018-06-29 10:07:00 -Mapped "{[/activiti/model],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ModelController.model()
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/add]}" onto public void com.bootdo.activiti.controller.ModelController.newModel(javax.servlet.http.HttpServletResponse) throws java.io.UnsupportedEncodingException
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/{modelId}/json],methods=[GET]}" onto public com.fasterxml.jackson.databind.node.ObjectNode com.bootdo.activiti.controller.ModelController.getEditorJson(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/activiti/editor/stencilset],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.String com.bootdo.activiti.controller.ModelController.getStencilset()
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/edit/{id}],methods=[GET]}" onto public void com.bootdo.activiti.controller.ModelController.edit(javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/deploy/{id}],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.deploy(java.lang.String) throws java.lang.Exception
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/{modelId}/save],methods=[PUT]}" onto public void com.bootdo.activiti.controller.ModelController.saveModel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/activiti/model/export/{id}],methods=[GET]}" onto public void com.bootdo.activiti.controller.ModelController.exportToXml(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/add],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ProcessController.add()
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.remove(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.ProcessController.list(int,int)
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.batchRemove(java.lang.String[])
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.deploy(java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/convertToModel/{procDefId}]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.convertToModel(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.io.UnsupportedEncodingException,javax.xml.stream.XMLStreamException
+2018-06-29 10:07:00 -Mapped "{[/activiti/process/resource/read/{xml}/{id}]}" onto public void com.bootdo.activiti.controller.ProcessController.resourceRead(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-06-29 10:07:00 -Mapped "{[/activiti/process],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ProcessController.process()
+2018-06-29 10:07:00 -Mapped "{[/act/salary/form],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.add()
+2018-06-29 10:07:00 -Mapped "{[/act/salary/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.remove(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/act/salary/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.remove(java.lang.String[])
+2018-06-29 10:07:00 -Mapped "{[/act/salary/update]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.update(com.bootdo.activiti.domain.SalaryDO)
+2018-06-29 10:07:00 -Mapped "{[/act/salary/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.SalaryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/act/salary/form/{taskId}],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.edit(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/act/salary],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.Salary()
+2018-06-29 10:07:00 -Mapped "{[/act/salary/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.saveOrUpdate(com.bootdo.activiti.domain.SalaryDO)
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/form/{procDefId}/{taskId}],methods=[GET]}" onto public void com.bootdo.activiti.controller.TaskController.form(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/gotoList],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.TaskController.list(int,int)
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/todo],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.TaskController.todo()
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/goto],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.TaskController.gotoTask()
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/form/{procDefId}],methods=[GET]}" onto public void com.bootdo.activiti.controller.TaskController.startForm(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/todoList],methods=[GET]}" onto java.util.List<com.bootdo.activiti.vo.TaskVO> com.bootdo.activiti.controller.TaskController.todoList()
+2018-06-29 10:07:00 -Mapped "{[/activiti/task/trace/photo/{procDefId}/{execId}]}" onto public void com.bootdo.activiti.controller.TaskController.tracePhoto(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-06-29 10:07:00 -Mapped "{[/blog/open/post/{cid}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.post(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/blog],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.blog()
+2018-06-29 10:07:00 -Mapped "{[/blog/open/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.blog.controller.BlogController.opentList(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/blog/open/page/{categories}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.about(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/add],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.add()
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/update]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.update(com.bootdo.blog.domain.ContentDO)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.blog.controller.ContentController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.save(com.bootdo.blog.domain.ContentDO)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent/edit/{cid}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/blog/bContent],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.bContent()
+2018-06-29 10:07:00 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.common.controller.HandleErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:07:00 -Mapped "{[/error]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.HandleErrorController.handleError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/add/{pId}],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.add(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/dept/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.update(com.bootdo.system.dept.domain.DeptDO)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/list],methods=[GET]}" onto public java.util.List<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.dept.controller.DeptController.list()
+2018-06-29 10:07:00 -Mapped "{[/system/dept/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.save(com.bootdo.system.dept.domain.DeptDO)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/tree],methods=[GET]}" onto public com.bootdo.common.domain.Tree<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.dept.controller.DeptController.tree()
+2018-06-29 10:07:00 -Mapped "{[/system/dept],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.dept()
+2018-06-29 10:07:00 -Mapped "{[/system/dept/edit/{deptId}],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/dept/treeView],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.treeView()
+2018-06-29 10:07:00 -Mapped "{[/system/dict/add],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/dict/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/dict/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.update(com.bootdo.system.dict.domain.DictDO)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.dict.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.save(com.bootdo.system.dict.domain.DictDO)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/dict],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.dict()
+2018-06-29 10:07:00 -Mapped "{[/system/dict/add/{type}/{description}],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/list/{type}],methods=[GET]}" onto public java.util.List<com.bootdo.system.dict.domain.DictDO> com.bootdo.system.dict.controller.DictController.listByType(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/dicttype],methods=[GET]}" onto public java.util.List<com.bootdo.system.dicttype.domain.DictTypeDO> com.bootdo.system.dict.controller.DictController.listDictType(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/addtype],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.adddict()
+2018-06-29 10:07:00 -Mapped "{[/system/dict/savetype],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.savetype(com.bootdo.system.dicttype.domain.DictTypeDO)
+2018-06-29 10:07:00 -Mapped "{[/system/dict/type],methods=[GET]}" onto public java.util.List<com.bootdo.system.dict.domain.DictDO> com.bootdo.system.dict.controller.DictController.listType()
+2018-06-29 10:07:00 -Mapped "{[/system/file/add],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/file/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.remove(java.lang.Long,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:07:00 -Mapped "{[/system/file/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/file/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.update(com.bootdo.system.file.domain.FileDO)
+2018-06-29 10:07:00 -Mapped "{[/system/file/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.file.controller.FileController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/file/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.save(com.bootdo.system.file.domain.FileDO)
+2018-06-29 10:07:00 -Mapped "{[/system/file/edit],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/file/info/{id}]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.info(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/file/upload],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:07:00 -Mapped "{[/system/file],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.sysFile(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/generator/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.generator.controller.GeneratorController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/generator/list],methods=[GET]}" onto java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.bootdo.system.generator.controller.GeneratorController.list()
+2018-06-29 10:07:00 -Mapped "{[/system/generator/code/{tableName}]}" onto public void com.bootdo.system.generator.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2018-06-29 10:07:00 -Mapped "{[/system/generator],methods=[GET]}" onto java.lang.String com.bootdo.system.generator.controller.GeneratorController.generator()
+2018-06-29 10:07:00 -Mapped "{[/system/generator/edit],methods=[GET]}" onto public java.lang.String com.bootdo.system.generator.controller.GeneratorController.edit(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/generator/batchCode]}" onto public void com.bootdo.system.generator.controller.GeneratorController.batchCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2018-06-29 10:07:00 -Mapped "{[/system/log/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.log.controller.LogController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/log],methods=[GET]}" onto java.lang.String com.bootdo.system.log.controller.LogController.log()
+2018-06-29 10:07:00 -Mapped "{[/system/log/list],methods=[GET]}" onto com.bootdo.common.domain.PageDO<com.bootdo.system.log.domain.LogDO> com.bootdo.system.log.controller.LogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/log/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.log.controller.LogController.batchRemove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/menu/add/{pId}],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.add(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.update(com.bootdo.system.menu.domain.MenuDO)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/list]}" onto java.util.List<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.save(com.bootdo.system.menu.domain.MenuDO)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/tree/{roleId}],methods=[GET]}" onto com.bootdo.common.domain.Tree<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.tree(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/menu/tree],methods=[GET]}" onto com.bootdo.common.domain.Tree<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.tree()
+2018-06-29 10:07:00 -Mapped "{[/system/menu/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/menu],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.menu(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/add],methods=[GET]}" onto java.lang.String com.bootdo.system.notice.controller.NoticeController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/notice/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.notice.controller.NoticeController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.notice.controller.NoticeController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/notice/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.notice.controller.NoticeController.update(com.bootdo.system.notice.domain.NoticeDO)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/read/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.notice.controller.NoticeController.read(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.notice.controller.NoticeController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.notice.controller.NoticeController.save(com.bootdo.system.notice.domain.NoticeDO)
+2018-06-29 10:07:00 -Mapped "{[/system/notice/message],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.system.notice.controller.NoticeController.message()
+2018-06-29 10:07:00 -Mapped "{[/system/notice/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.notice.controller.NoticeController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/notice],methods=[GET]}" onto java.lang.String com.bootdo.system.notice.controller.NoticeController.Notice()
+2018-06-29 10:07:00 -Mapped "{[/system/notice/selfnotice],methods=[GET]}" onto java.lang.String com.bootdo.system.notice.controller.NoticeController.selefNotice()
+2018-06-29 10:07:00 -Mapped "{[/system/notice/selflist],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.system.notice.controller.NoticeController.selfList(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/add],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.remove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/update],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.update(com.bootdo.system.quartzjob.domain.QuartzJobTaskDO)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.quartzjob.controller.QuartzJobController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.save(com.bootdo.system.quartzjob.domain.QuartzJobTaskDO)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.QuartzJobController()
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/changeJobStatus],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.changeJobStatus(java.lang.Long,java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/quartzjob/info/{id}]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.info(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/add],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.remove(java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.remove(java.lang.String[])
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.update(com.bootdo.system.regexp.domain.RegexpDO)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.regexp.controller.RegexpController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.save(com.bootdo.system.regexp.domain.RegexpDO)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp/edit/{rid}],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.edit(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/regexp],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.Regexp()
+2018-06-29 10:07:00 -Mapped "{[/system/role/add],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.add()
+2018-06-29 10:07:00 -Mapped "{[/system/role/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.update(com.bootdo.system.role.domain.RoleDO)
+2018-06-29 10:07:00 -Mapped "{[/system/role/list],methods=[GET]}" onto java.util.List<com.bootdo.system.role.domain.RoleDO> com.bootdo.system.role.controller.RoleController.list()
+2018-06-29 10:07:00 -Mapped "{[/system/role/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.save(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/role/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.save(com.bootdo.system.role.domain.RoleDO)
+2018-06-29 10:07:00 -Mapped "{[/system/role/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.batchRemove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/role],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.role()
+2018-06-29 10:07:00 -Mapped "{[/system/role/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/index],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.index(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/main],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.main()
+2018-06-29 10:07:00 -Mapped "{[/login],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.login()
+2018-06-29 10:07:00 -Mapped "{[/logout],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.logout()
+2018-06-29 10:07:00 -Mapped "{[/ || ],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.welcome(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/login],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.LoginController.ajaxLogin(java.lang.String,java.lang.String)
+2018-06-29 10:07:00 -Mapped "{[/system/online/list]}" onto public java.util.List<com.bootdo.system.user.domain.UserOnline> com.bootdo.system.user.controller.SessionController.list()
+2018-06-29 10:07:00 -Mapped "{[/system/online],methods=[GET]}" onto public java.lang.String com.bootdo.system.user.controller.SessionController.online()
+2018-06-29 10:07:00 -Mapped "{[/system/online/forceLogout/{sessionId}]}" onto public com.bootdo.common.utils.R com.bootdo.system.user.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-06-29 10:07:00 -Mapped "{[/system/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.bootdo.system.user.controller.SessionController.sessionList()
+2018-06-29 10:07:00 -Mapped "{[/system/user/exit],methods=[POST]}" onto boolean com.bootdo.system.user.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/user/add],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.add(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/user/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.remove(java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/user/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.update(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:07:00 -Mapped "{[/system/user/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.system.user.controller.UserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:07:00 -Mapped "{[/system/user/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.save(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:07:00 -Mapped "{[/system/user/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.batchRemove(java.lang.Long[])
+2018-06-29 10:07:00 -Mapped "{[/system/user/tree],methods=[GET]}" onto public com.bootdo.common.domain.Tree<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.user.controller.UserController.tree()
+2018-06-29 10:07:00 -Mapped "{[/system/user/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:07:00 -Mapped "{[/system/user/treeView],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.treeView()
+2018-06-29 10:07:00 -Mapped "{[/system/user/personal],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.personal(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/user/resetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.resetPwd(com.bootdo.system.user.domain.UserVO)
+2018-06-29 10:07:00 -Mapped "{[/system/user/resetPwd/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/system/user/updatePeronal],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.updatePeronal(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:07:00 -Mapped "{[/system/user/adminResetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.adminResetPwd(com.bootdo.system.user.domain.UserVO)
+2018-06-29 10:07:00 -Mapped "{[/system/user/uploadImg],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:07:00 -Mapped "{[/system/user],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.user(org.springframework.ui.Model)
+2018-06-29 10:07:00 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:07:00 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-29 10:07:00 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-29 10:07:00 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-29 10:07:01 -Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-06-29 10:07:01 -Mapped URL path [/endpointChat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-06-29 10:07:01 -Initializing ExecutorService  'brokerChannelExecutor'
+2018-06-29 10:07:01 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:06:52 CST 2018]; root of context hierarchy
+2018-06-29 10:07:02 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:07:02 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:07:02 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:07:02 -Detected @ExceptionHandler methods in BDExceptionHandler
+2018-06-29 10:07:02 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:07:03 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+2018-06-29 10:07:03 -Unregistering JMX-exposed beans on shutdown
+2018-06-29 10:07:03 -Shutting down ExecutorService 'brokerChannelExecutor'
+2018-06-29 10:07:03 -Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-06-29 10:07:03 -清除SpringContextHolder中的ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:06:52 CST 2018]; root of context hierarchy
+2018-06-29 10:07:03 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-06-29 10:07:03 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-06-29 10:07:03 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-06-29 10:07:03 -Shutting down Quartz Scheduler
+2018-06-29 10:07:03 -Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-06-29 10:07:03 -Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-06-29 10:07:03 -{dataSource-1} closed
+2018-06-29 10:07:03 -Stopping service [Tomcat]
+2018-06-29 10:07:03 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-29 10:07:03 -Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.bootdo.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:43)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:51)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at com.bootdo.common.aspect.WebLogAspect.doAround(WebLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.bootdo.common.controller.HandleErrorController$$EnhancerBySpringCGLIB$$bde74dca.getErrorPath(<generated>)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$DefaultIgnoredRequestCustomizer.customize(SpringBootWebSecurityConfiguration.java:189)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$IgnoredPathsWebSecurityConfigurerAdapter.init(SpringBootWebSecurityConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$IgnoredPathsWebSecurityConfigurerAdapter.init(SpringBootWebSecurityConfiguration.java:146)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$204c8214.CGLIB$springSecurityFilterChain$2(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$204c8214$$FastClassBySpringCGLIB$$6216f5b5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$204c8214.springSecurityFilterChain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 21 common frames omitted
+2018-06-29 10:15:51 -Starting BootdoApplication on localhost with PID 7986 (/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes started by chenlin in /Users/chenlin/Documents/workspace/bootdo)
+2018-06-29 10:15:51 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-29 10:15:51 -The following profiles are active: dev
+2018-06-29 10:15:51 -HV000001: Hibernate Validator 5.3.6.Final
+2018-06-29 10:15:51 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:15:51 CST 2018]; root of context hierarchy
+2018-06-29 10:15:52 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-29 10:15:53 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db5e1846] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$cdb746ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'userRealm' of type [com.bootdo.system.user.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'redisManager' of type [com.bootdo.common.redis.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -获取名称为: com.bootdo.system.user.shiro.UserRealm.authorizationCache 的RedisCache实例
+2018-06-29 10:15:53 -Bean 'redisSessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'sessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:53 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:15:54 -Tomcat initialized with port(s): 8099 (http)
+2018-06-29 10:15:54 -Starting service [Tomcat]
+2018-06-29 10:15:54 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-29 10:15:54 -Initializing Spring embedded WebApplicationContext
+2018-06-29 10:15:54 -Root WebApplicationContext: initialization completed in 3069 ms
+2018-06-29 10:15:55 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 10:15:55 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 10:15:55 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 10:15:55 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 10:15:55 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-06-29 10:15:55 -Filter xssFilter was not registered (disabled)
+2018-06-29 10:15:55 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-29 10:15:55 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-06-29 10:15:55 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-06-29 10:15:55 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-29 10:15:55 -{dataSource-1} inited
+2018-06-29 10:15:57 -ProcessEngine default created
+2018-06-29 10:15:58 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryController': Unsatisfied dependency expressed through field 'salaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryServiceImpl': Unsatisfied dependency expressed through field 'salaryDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryDao' defined in file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/com/bootdo/activiti/dao/SalaryDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+2018-06-29 10:15:58 -{dataSource-1} closed
+2018-06-29 10:15:58 -Stopping service [Tomcat]
+2018-06-29 10:15:58 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-29 10:15:58 -Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryController': Unsatisfied dependency expressed through field 'salaryService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryServiceImpl': Unsatisfied dependency expressed through field 'salaryDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryDao' defined in file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/com/bootdo/activiti/dao/SalaryDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:15)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryServiceImpl': Unsatisfied dependency expressed through field 'salaryDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryDao' defined in file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/com/bootdo/activiti/dao/SalaryDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'salaryDao' defined in file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/com/bootdo/activiti/dao/SalaryDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1342)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 55 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes/mybatis/system/NoticeMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:522)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:381)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:546)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:130)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e326976.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e326976$$FastClassBySpringCGLIB$$594d478.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e326976.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 56 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 69 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 71 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.bootdo.system.notice.domain.NoticeDO'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 75 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.bootdo.system.notice.domain.NoticeDO
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 77 common frames omitted
+2018-06-29 10:25:02 -Starting BootdoApplication on localhost with PID 8012 (/Users/chenlin/Documents/workspace/bootdo/bootdo/target/classes started by chenlin in /Users/chenlin/Documents/workspace/bootdo)
+2018-06-29 10:25:02 -Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-06-29 10:25:02 -The following profiles are active: dev
+2018-06-29 10:25:02 -HV000001: Hibernate Validator 5.3.6.Final
+2018-06-29 10:25:02 -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:25:02 CST 2018]; root of context hierarchy
+2018-06-29 10:25:03 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-29 10:25:04 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78482e15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'shiroConfig' of type [com.bootdo.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$6aa15cbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'userRealm' of type [com.bootdo.system.user.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'redisManager' of type [com.bootdo.common.redis.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -获取名称为: com.bootdo.system.user.shiro.UserRealm.authorizationCache 的RedisCache实例
+2018-06-29 10:25:04 -Bean 'redisSessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'sessionDAO' of type [com.bootdo.common.redis.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'sessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:04 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-29 10:25:05 -Tomcat initialized with port(s): 8099 (http)
+2018-06-29 10:25:05 -Starting service [Tomcat]
+2018-06-29 10:25:05 -Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-06-29 10:25:05 -Initializing Spring embedded WebApplicationContext
+2018-06-29 10:25:05 -Root WebApplicationContext: initialization completed in 3350 ms
+2018-06-29 10:25:06 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-29 10:25:06 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-29 10:25:06 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-29 10:25:06 -Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-29 10:25:06 -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-06-29 10:25:06 -Filter xssFilter was not registered (disabled)
+2018-06-29 10:25:06 -Mapping filter: 'webStatFilter' to urls: [/*]
+2018-06-29 10:25:06 -Mapping filter: 'shiroFilterFactoryBean' to: [/*]
+2018-06-29 10:25:06 -Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-06-29 10:25:06 -Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-29 10:25:06 -{dataSource-1} inited
+2018-06-29 10:25:08 -ProcessEngine default created
+2018-06-29 10:25:09 -ApplicationContext registed-->org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:25:02 CST 2018]; root of context hierarchy
+2018-06-29 10:25:09 -Initializing ExecutorService  'clientInboundChannelExecutor'
+2018-06-29 10:25:09 -Initializing ExecutorService  'clientOutboundChannelExecutor'
+2018-06-29 10:25:09 -Using default implementation for ThreadExecutor
+2018-06-29 10:25:09 -Job execution threads will use class loader of thread: main
+2018-06-29 10:25:09 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-06-29 10:25:09 -Quartz Scheduler v.2.2.1 created.
+2018-06-29 10:25:09 -RAMJobStore initialized.
+2018-06-29 10:25:09 -Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-06-29 10:25:09 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2018-06-29 10:25:09 -Quartz scheduler version: 2.2.1
+2018-06-29 10:25:09 -JobFactory set to: com.bootdo.common.quartz.factory.JobFactory@323b0632
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/{id}],methods=[DELETE]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.remove(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.ModelController.list(int,int)
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.batchRemove(java.lang.String[])
+2018-06-29 10:25:11 -Mapped "{[/activiti/model],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ModelController.model()
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/add]}" onto public void com.bootdo.activiti.controller.ModelController.newModel(javax.servlet.http.HttpServletResponse) throws java.io.UnsupportedEncodingException
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/{modelId}/json],methods=[GET]}" onto public com.fasterxml.jackson.databind.node.ObjectNode com.bootdo.activiti.controller.ModelController.getEditorJson(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/activiti/editor/stencilset],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.String com.bootdo.activiti.controller.ModelController.getStencilset()
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/edit/{id}],methods=[GET]}" onto public void com.bootdo.activiti.controller.ModelController.edit(javax.servlet.http.HttpServletResponse,java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/deploy/{id}],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ModelController.deploy(java.lang.String) throws java.lang.Exception
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/{modelId}/save],methods=[PUT]}" onto public void com.bootdo.activiti.controller.ModelController.saveModel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/activiti/model/export/{id}],methods=[GET]}" onto public void com.bootdo.activiti.controller.ModelController.exportToXml(java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/add],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ProcessController.add()
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.remove(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.ProcessController.list(int,int)
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.batchRemove(java.lang.String[])
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.deploy(java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile)
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/convertToModel/{procDefId}]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.ProcessController.convertToModel(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.io.UnsupportedEncodingException,javax.xml.stream.XMLStreamException
+2018-06-29 10:25:11 -Mapped "{[/activiti/process/resource/read/{xml}/{id}]}" onto public void com.bootdo.activiti.controller.ProcessController.resourceRead(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-06-29 10:25:11 -Mapped "{[/activiti/process],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.ProcessController.process()
+2018-06-29 10:25:11 -Mapped "{[/act/salary/form],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.add()
+2018-06-29 10:25:11 -Mapped "{[/act/salary/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.remove(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/act/salary/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.remove(java.lang.String[])
+2018-06-29 10:25:11 -Mapped "{[/act/salary/update]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.update(com.bootdo.activiti.domain.SalaryDO)
+2018-06-29 10:25:11 -Mapped "{[/act/salary/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.SalaryController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/act/salary/form/{taskId}],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.edit(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/act/salary],methods=[GET]}" onto java.lang.String com.bootdo.activiti.controller.SalaryController.Salary()
+2018-06-29 10:25:11 -Mapped "{[/act/salary/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.activiti.controller.SalaryController.saveOrUpdate(com.bootdo.activiti.domain.SalaryDO)
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/form/{procDefId}/{taskId}],methods=[GET]}" onto public void com.bootdo.activiti.controller.TaskController.form(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/gotoList],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.activiti.controller.TaskController.list(int,int)
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/todo],methods=[GET]}" onto org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.TaskController.todo()
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/goto],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.activiti.controller.TaskController.gotoTask()
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/form/{procDefId}],methods=[GET]}" onto public void com.bootdo.activiti.controller.TaskController.startForm(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/todoList],methods=[GET]}" onto java.util.List<com.bootdo.activiti.vo.TaskVO> com.bootdo.activiti.controller.TaskController.todoList()
+2018-06-29 10:25:11 -Mapped "{[/activiti/task/trace/photo/{procDefId}/{execId}]}" onto public void com.bootdo.activiti.controller.TaskController.tracePhoto(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-06-29 10:25:11 -Mapped "{[/blog/open/post/{cid}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.post(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/blog],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.blog()
+2018-06-29 10:25:11 -Mapped "{[/blog/open/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.blog.controller.BlogController.opentList(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/blog/open/page/{categories}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.BlogController.about(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/add],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.add()
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.remove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/update]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.update(com.bootdo.blog.domain.ContentDO)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.blog.controller.ContentController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.blog.controller.ContentController.save(com.bootdo.blog.domain.ContentDO)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent/edit/{cid}],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/blog/bContent],methods=[GET]}" onto java.lang.String com.bootdo.blog.controller.ContentController.bContent()
+2018-06-29 10:25:11 -Mapped "{[/error]}" onto public com.bootdo.common.utils.R com.bootdo.common.controller.HandleErrorController.handleError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:25:11 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView com.bootdo.common.controller.HandleErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-29 10:25:11 -Mapped "{[/system/dept/add/{pId}],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.add(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/dept/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/dept/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.remove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/dept/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.update(com.bootdo.system.dept.domain.DeptDO)
+2018-06-29 10:25:11 -Mapped "{[/system/dept/list],methods=[GET]}" onto public java.util.List<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.dept.controller.DeptController.list()
+2018-06-29 10:25:11 -Mapped "{[/system/dept/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dept.controller.DeptController.save(com.bootdo.system.dept.domain.DeptDO)
+2018-06-29 10:25:11 -Mapped "{[/system/dept/tree],methods=[GET]}" onto public com.bootdo.common.domain.Tree<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.dept.controller.DeptController.tree()
+2018-06-29 10:25:11 -Mapped "{[/system/dept/edit/{deptId}],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/dept],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.dept()
+2018-06-29 10:25:11 -Mapped "{[/system/dept/treeView],methods=[GET]}" onto java.lang.String com.bootdo.system.dept.controller.DeptController.treeView()
+2018-06-29 10:25:11 -Mapped "{[/system/dict/add],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.add()
+2018-06-29 10:25:11 -Mapped "{[/system/dict/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.remove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/dict/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.update(com.bootdo.system.dict.domain.DictDO)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.dict.controller.DictController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.save(com.bootdo.system.dict.domain.DictDO)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/type],methods=[GET]}" onto public java.util.List<com.bootdo.system.dict.domain.DictDO> com.bootdo.system.dict.controller.DictController.listType()
+2018-06-29 10:25:11 -Mapped "{[/system/dict/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/dict],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.dict()
+2018-06-29 10:25:11 -Mapped "{[/system/dict/add/{type}/{description}],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.addD(org.springframework.ui.Model,java.lang.String,java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/list/{type}],methods=[GET]}" onto public java.util.List<com.bootdo.system.dict.domain.DictDO> com.bootdo.system.dict.controller.DictController.listByType(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/dicttype],methods=[GET]}" onto public java.util.List<com.bootdo.system.dicttype.domain.DictTypeDO> com.bootdo.system.dict.controller.DictController.listDictType(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/dict/addtype],methods=[GET]}" onto java.lang.String com.bootdo.system.dict.controller.DictController.adddict()
+2018-06-29 10:25:11 -Mapped "{[/system/dict/savetype],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.dict.controller.DictController.savetype(com.bootdo.system.dicttype.domain.DictTypeDO)
+2018-06-29 10:25:11 -Mapped "{[/system/file/add],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.add()
+2018-06-29 10:25:11 -Mapped "{[/system/file/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.remove(java.lang.Long,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:25:11 -Mapped "{[/system/file/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.remove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/file/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.update(com.bootdo.system.file.domain.FileDO)
+2018-06-29 10:25:11 -Mapped "{[/system/file/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.file.controller.FileController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/file/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.save(com.bootdo.system.file.domain.FileDO)
+2018-06-29 10:25:11 -Mapped "{[/system/file/info/{id}]}" onto public com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.info(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/file/edit],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/file],methods=[GET]}" onto java.lang.String com.bootdo.system.file.controller.FileController.sysFile(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/file/upload],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.file.controller.FileController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:25:11 -Mapped "{[/system/generator/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.generator.controller.GeneratorController.update(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/generator/list],methods=[GET]}" onto java.util.List<java.util.Map<java.lang.String, java.lang.Object>> com.bootdo.system.generator.controller.GeneratorController.list()
+2018-06-29 10:25:11 -Mapped "{[/system/generator/code/{tableName}]}" onto public void com.bootdo.system.generator.controller.GeneratorController.code(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2018-06-29 10:25:11 -Mapped "{[/system/generator],methods=[GET]}" onto java.lang.String com.bootdo.system.generator.controller.GeneratorController.generator()
+2018-06-29 10:25:11 -Mapped "{[/system/generator/edit],methods=[GET]}" onto public java.lang.String com.bootdo.system.generator.controller.GeneratorController.edit(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/generator/batchCode]}" onto public void com.bootdo.system.generator.controller.GeneratorController.batchCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.io.IOException
+2018-06-29 10:25:11 -Mapped "{[/system/log/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.log.controller.LogController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/log],methods=[GET]}" onto java.lang.String com.bootdo.system.log.controller.LogController.log()
+2018-06-29 10:25:11 -Mapped "{[/system/log/list],methods=[GET]}" onto com.bootdo.common.domain.PageDO<com.bootdo.system.log.domain.LogDO> com.bootdo.system.log.controller.LogController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/log/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.log.controller.LogController.batchRemove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/menu/add/{pId}],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.add(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.update(com.bootdo.system.menu.domain.MenuDO)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/list]}" onto java.util.List<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.menu.controller.MenuController.save(com.bootdo.system.menu.domain.MenuDO)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/tree/{roleId}],methods=[GET]}" onto com.bootdo.common.domain.Tree<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.tree(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/menu/tree],methods=[GET]}" onto com.bootdo.common.domain.Tree<com.bootdo.system.menu.domain.MenuDO> com.bootdo.system.menu.controller.MenuController.tree()
+2018-06-29 10:25:11 -Mapped "{[/system/menu/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.edit(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/menu],methods=[GET]}" onto java.lang.String com.bootdo.system.menu.controller.MenuController.menu(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/add],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.add()
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.remove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/update],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.update(com.bootdo.system.quartzjob.domain.QuartzJobTaskDO)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.quartzjob.controller.QuartzJobController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.save(com.bootdo.system.quartzjob.domain.QuartzJobTaskDO)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/info/{id}]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.info(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob],methods=[GET]}" onto java.lang.String com.bootdo.system.quartzjob.controller.QuartzJobController.QuartzJobController()
+2018-06-29 10:25:11 -Mapped "{[/system/quartzjob/changeJobStatus],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.quartzjob.controller.QuartzJobController.changeJobStatus(java.lang.Long,java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/add],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.add()
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/remove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.remove(java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/batchRemove],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.remove(java.lang.String[])
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/update]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.update(com.bootdo.system.regexp.domain.RegexpDO)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/list],methods=[GET]}" onto public com.bootdo.common.utils.PageUtils com.bootdo.system.regexp.controller.RegexpController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/save],methods=[POST]}" onto public com.bootdo.common.utils.R com.bootdo.system.regexp.controller.RegexpController.save(com.bootdo.system.regexp.domain.RegexpDO)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp/edit/{rid}],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.edit(java.lang.String,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/regexp],methods=[GET]}" onto java.lang.String com.bootdo.system.regexp.controller.RegexpController.Regexp()
+2018-06-29 10:25:11 -Mapped "{[/system/role/add],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.add()
+2018-06-29 10:25:11 -Mapped "{[/system/role/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.update(com.bootdo.system.role.domain.RoleDO)
+2018-06-29 10:25:11 -Mapped "{[/system/role/list],methods=[GET]}" onto java.util.List<com.bootdo.system.role.domain.RoleDO> com.bootdo.system.role.controller.RoleController.list()
+2018-06-29 10:25:11 -Mapped "{[/system/role/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.save(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/role/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.save(com.bootdo.system.role.domain.RoleDO)
+2018-06-29 10:25:11 -Mapped "{[/system/role/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.role.controller.RoleController.batchRemove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/role],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.role()
+2018-06-29 10:25:11 -Mapped "{[/system/role/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.role.controller.RoleController.edit(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/index],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.index(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/main],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.main()
+2018-06-29 10:25:11 -Mapped "{[/login],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.login()
+2018-06-29 10:25:11 -Mapped "{[/logout],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.logout()
+2018-06-29 10:25:11 -Mapped "{[/ || ],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.LoginController.welcome(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/login],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.LoginController.ajaxLogin(java.lang.String,java.lang.String)
+2018-06-29 10:25:11 -Mapped "{[/system/online/list]}" onto public java.util.List<com.bootdo.system.user.domain.UserOnline> com.bootdo.system.user.controller.SessionController.list()
+2018-06-29 10:25:11 -Mapped "{[/system/online],methods=[GET]}" onto public java.lang.String com.bootdo.system.user.controller.SessionController.online()
+2018-06-29 10:25:11 -Mapped "{[/system/online/forceLogout/{sessionId}]}" onto public com.bootdo.common.utils.R com.bootdo.system.user.controller.SessionController.forceLogout(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-06-29 10:25:11 -Mapped "{[/system/online/sessionList]}" onto public java.util.Collection<org.apache.shiro.session.Session> com.bootdo.system.user.controller.SessionController.sessionList()
+2018-06-29 10:25:11 -Mapped "{[/system/user/exit],methods=[POST]}" onto boolean com.bootdo.system.user.controller.UserController.exit(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/user/add],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.add(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/user/remove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.remove(java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/user/update],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.update(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:25:11 -Mapped "{[/system/user/list],methods=[GET]}" onto com.bootdo.common.utils.PageUtils com.bootdo.system.user.controller.UserController.list(java.util.Map<java.lang.String, java.lang.Object>)
+2018-06-29 10:25:11 -Mapped "{[/system/user/save],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.save(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:25:11 -Mapped "{[/system/user/batchRemove],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.batchRemove(java.lang.Long[])
+2018-06-29 10:25:11 -Mapped "{[/system/user/tree],methods=[GET]}" onto public com.bootdo.common.domain.Tree<com.bootdo.system.dept.domain.DeptDO> com.bootdo.system.user.controller.UserController.tree()
+2018-06-29 10:25:11 -Mapped "{[/system/user],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.user(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/user/edit/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.edit(org.springframework.ui.Model,java.lang.Long)
+2018-06-29 10:25:11 -Mapped "{[/system/user/treeView],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.treeView()
+2018-06-29 10:25:11 -Mapped "{[/system/user/resetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.resetPwd(com.bootdo.system.user.domain.UserVO)
+2018-06-29 10:25:11 -Mapped "{[/system/user/resetPwd/{id}],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.resetPwd(java.lang.Long,org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/user/updatePeronal],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.updatePeronal(com.bootdo.system.user.domain.UserDO)
+2018-06-29 10:25:11 -Mapped "{[/system/user/adminResetPwd],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.adminResetPwd(com.bootdo.system.user.domain.UserVO)
+2018-06-29 10:25:11 -Mapped "{[/system/user/personal],methods=[GET]}" onto java.lang.String com.bootdo.system.user.controller.UserController.personal(org.springframework.ui.Model)
+2018-06-29 10:25:11 -Mapped "{[/system/user/uploadImg],methods=[POST]}" onto com.bootdo.common.utils.R com.bootdo.system.user.controller.UserController.uploadImg(org.springframework.web.multipart.MultipartFile,java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:25:11 -Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-06-29 10:25:11 -Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-29 10:25:11 -Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-29 10:25:11 -Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-29 10:25:11 -Initializing ExecutorService  'messageBrokerTaskScheduler'
+2018-06-29 10:25:11 -Mapped URL path [/endpointChat/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2018-06-29 10:25:11 -Initializing ExecutorService  'brokerChannelExecutor'
+2018-06-29 10:25:12 -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:25:02 CST 2018]; root of context hierarchy
+2018-06-29 10:25:12 -Mapped URL path [/files/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:25:12 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:25:12 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:25:12 -Detected @ExceptionHandler methods in BDExceptionHandler
+2018-06-29 10:25:13 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-29 10:25:14 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+2018-06-29 10:25:14 -Unregistering JMX-exposed beans on shutdown
+2018-06-29 10:25:14 -Shutting down ExecutorService 'brokerChannelExecutor'
+2018-06-29 10:25:14 -Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2018-06-29 10:25:14 -清除SpringContextHolder中的ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77825085: startup date [Fri Jun 29 10:25:02 CST 2018]; root of context hierarchy
+2018-06-29 10:25:14 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2018-06-29 10:25:14 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2018-06-29 10:25:14 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2018-06-29 10:25:14 -Shutting down Quartz Scheduler
+2018-06-29 10:25:14 -Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2018-06-29 10:25:14 -Shutting down ExecutorService 'clientInboundChannelExecutor'
+2018-06-29 10:25:14 -{dataSource-1} closed
+2018-06-29 10:25:14 -Stopping service [Tomcat]
+2018-06-29 10:25:14 -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-06-29 10:25:14 -Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bootdo.BootdoApplication.main(BootdoApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 20 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.bootdo.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:43)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:51)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at com.bootdo.common.aspect.WebLogAspect.doAround(WebLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.bootdo.common.controller.HandleErrorController$$EnhancerBySpringCGLIB$$85ddc475.getErrorPath(<generated>)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$DefaultIgnoredRequestCustomizer.customize(SpringBootWebSecurityConfiguration.java:189)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$IgnoredPathsWebSecurityConfigurerAdapter.init(SpringBootWebSecurityConfiguration.java:164)
+	at org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$IgnoredPathsWebSecurityConfigurerAdapter.init(SpringBootWebSecurityConfiguration.java:146)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1f795b08.CGLIB$springSecurityFilterChain$2(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1f795b08$$FastClassBySpringCGLIB$$25944e37.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1f795b08.springSecurityFilterChain(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 21 common frames omitted
