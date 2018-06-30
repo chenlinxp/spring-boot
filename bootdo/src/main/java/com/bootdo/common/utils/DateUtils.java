@@ -10,11 +10,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import com.bootdo.common.exception.BaseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-
-import com.bootdo.common.exception.BaseException;
 
 
 /**
@@ -637,93 +635,93 @@ public class DateUtils {
 
     // 将startDate和endDate范围内的日期加入到List（List中包括startDate和endDate）中，return
     // List<Date>
-    public static List<Date> getDateListBetweenDates(Date startDate, Date endDate) {
-        List<Date> list = new ArrayList<Date>();
-        Calendar startTime = Calendar.getInstance();
-        startTime.clear();
-        startTime.setTime(startDate);
-        int startYear = startTime.get(1);
-        int startMonth = startTime.get(2);
-        int startDay = startTime.get(5);
-
-        Calendar endTime = Calendar.getInstance();
-        endTime.clear();
-        endTime.setTime(endDate);
-        int endYear = endTime.get(1);
-        int endMonth = endTime.get(2);
-        int endDay = endTime.get(5);
-
-        for (int x = startYear; x <= endYear; ++x) {
-            boolean isLeapYear = (x % 4 == 0) && (((x % 100 != 0) || (x % 400 == 0)));
-
-            int max = 0;
-            if (startMonth == 1) {
-                if (isLeapYear)
-                    max = 29;
-
-                if (!(isLeapYear))
-                    max = 28;
-            }
-
-            if ((startMonth == 3) || (startMonth == 5) || (startMonth == 8) || (startMonth == 10))
-                max = 30;
-
-            if ((startMonth == 0) || (startMonth == 2) || (startMonth == 4) || (startMonth == 6) || (startMonth == 7)
-                    || (startMonth == 9) || (startMonth == 11)) {
-                max = 31;
-            }
-
-            int y = 0;
-
-            if (x == startYear)
-                y = startMonth;
-
-            for (; y < 12; ++y) {
-                max = 0;
-                if (y == 1) {
-                    if (isLeapYear)
-                        max = 29;
-
-                    if (!(isLeapYear))
-                        max = 28;
-                }
-
-                if ((y == 3) || (y == 5) || (y == 8) || (y == 10))
-                    max = 30;
-
-                if ((y == 0) || (y == 2) || (y == 4) || (y == 6) || (y == 7) || (y == 9) || (y == 11))
-                    max = 31;
-
-                int ty = y + 1;
-
-                int z = 1;
-
-                if ((x == startYear) && (y == startMonth))
-                    z = startDay;
-
-                for (; z <= max; ++z) {
-                    String str_temp = x + "-" + ty + "-" + z;
-                    SimpleDateFormat format = new SimpleDateFormat(DEFAULT_DATE_FORMAT);
-                    Date date_temp = null;
-                    try {
-                        date_temp = format.parse(str_temp);
-                    } catch (ParseException e) {
-                        throw new BaseException(e, "时间格式不合法");
-                    }
-                    list.add(date_temp);
-                    if ((x == endYear) && (y == endMonth) && (z == endDay))
-                        break;
-
-                }
-
-                if ((x == endYear) && (y == endMonth))
-                    break;
-            }
-
-        }
-
-        return list;
-    }
+//    public static List<Date> getDateListBetweenDates(Date startDate, Date endDate) {
+//        List<Date> list = new ArrayList<Date>();
+//        Calendar startTime = Calendar.getInstance();
+//        startTime.clear();
+//        startTime.setTime(startDate);
+//        int startYear = startTime.get(1);
+//        int startMonth = startTime.get(2);
+//        int startDay = startTime.get(5);
+//
+//        Calendar endTime = Calendar.getInstance();
+//        endTime.clear();
+//        endTime.setTime(endDate);
+//        int endYear = endTime.get(1);
+//        int endMonth = endTime.get(2);
+//        int endDay = endTime.get(5);
+//
+//        for (int x = startYear; x <= endYear; ++x) {
+//            boolean isLeapYear = (x % 4 == 0) && (((x % 100 != 0) || (x % 400 == 0)));
+//
+//            int max = 0;
+//            if (startMonth == 1) {
+//                if (isLeapYear)
+//                    max = 29;
+//
+//                if (!(isLeapYear))
+//                    max = 28;
+//            }
+//
+//            if ((startMonth == 3) || (startMonth == 5) || (startMonth == 8) || (startMonth == 10))
+//                max = 30;
+//
+//            if ((startMonth == 0) || (startMonth == 2) || (startMonth == 4) || (startMonth == 6) || (startMonth == 7)
+//                    || (startMonth == 9) || (startMonth == 11)) {
+//                max = 31;
+//            }
+//
+//            int y = 0;
+//
+//            if (x == startYear)
+//                y = startMonth;
+//
+//            for (; y < 12; ++y) {
+//                max = 0;
+//                if (y == 1) {
+//                    if (isLeapYear)
+//                        max = 29;
+//
+//                    if (!(isLeapYear))
+//                        max = 28;
+//                }
+//
+//                if ((y == 3) || (y == 5) || (y == 8) || (y == 10))
+//                    max = 30;
+//
+//                if ((y == 0) || (y == 2) || (y == 4) || (y == 6) || (y == 7) || (y == 9) || (y == 11))
+//                    max = 31;
+//
+//                int ty = y + 1;
+//
+//                int z = 1;
+//
+//                if ((x == startYear) && (y == startMonth))
+//                    z = startDay;
+//
+//                for (; z <= max; ++z) {
+//                    String str_temp = x + "-" + ty + "-" + z;
+//                    SimpleDateFormat format = new SimpleDateFormat(DEFAULT_DATE_FORMAT);
+//                    Date date_temp = null;
+//                    try {
+//                        date_temp = format.parse(str_temp);
+//                    } catch (ParseException e) {
+//                        throw new BaseException(e, "时间格式不合法");
+//                    }
+//                    list.add(date_temp);
+//                    if ((x == endYear) && (y == endMonth) && (z == endDay))
+//                        break;
+//
+//                }
+//
+//                if ((x == endYear) && (y == endMonth))
+//                    break;
+//            }
+//
+//        }
+//
+//        return list;
+//    }
 
     /** 获得当前天 */
     public static int getDay() {
@@ -1444,7 +1442,7 @@ public class DateUtils {
     public static Date formatDefault(String dateStr){
         try {
             return convertStrToDate(dateStr, DateUtils.DEFAULT_TIME_FORMAT);
-        } catch (BaseException e) {
+        } catch (Exception e) {
             return convertStrToDate(dateStr, DateUtils.DEFAULT_DATE_FORMAT);
         }
     }
@@ -1461,7 +1459,7 @@ public class DateUtils {
     public static String formatDefault(Date date){
         try {
             return convertDateToStr(date, DateUtils.DEFAULT_TIME_FORMAT);
-        } catch (BaseException e) {
+        } catch (Exception e) {
             return convertDateToStr(date, DateUtils.DEFAULT_DATE_FORMAT);
         }
     }

@@ -103,17 +103,17 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
      * @param args
      * @return
      */
-    public static String stringBuild(String src, Map<String,Object> args) {
-        String def = new String();
-        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
-        Matcher m = p.matcher(src);
-        StringBuffer buffer = new StringBuffer();
-        while (m.find()) {
-            m.appendReplacement(buffer, MapUtils.get(args, m.group(1), def).toString());
-        }
-        m.appendTail(buffer);
-        return buffer.toString();
-    }
+//    public static String stringBuild(String src, Map<String,Object> args) {
+//        String def = new String();
+//        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
+//        Matcher m = p.matcher(src);
+//        StringBuffer buffer = new StringBuffer();
+//        while (m.find()) {
+//            m.appendReplacement(buffer, MapUtils.get(args, m.group(1), def).toString());
+//        }
+//        m.appendTail(buffer);
+//        return buffer.toString();
+//    }
     /**
      * 字符串拼接 例如 stringBuild("高级黑啊{name},太原热{age}",{"name":"cc","age":"20"});
      * @param src
@@ -121,23 +121,23 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
      * @param skipIfNotExist
      * @return
      */
-    public static String stringBuild(String src, Map<String,Object> args,boolean skipIfNotExist) {
-        String def = new String();
-        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
-        Matcher m = p.matcher(src);
-        StringBuffer buffer = new StringBuffer();
-        while (m.find()) {
-            String key = m.group(1);
-            Object v = MapUtils.get(args, key, null);
-            if(v == null) {
-                if(skipIfNotExist) continue;
-                else  v = def;
-            }
-            m.appendReplacement(buffer, v.toString());
-        }
-        m.appendTail(buffer);
-        return buffer.toString();
-    }
+//    public static String stringBuild(String src, Map<String,Object> args,boolean skipIfNotExist) {
+//        String def = new String();
+//        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
+//        Matcher m = p.matcher(src);
+//        StringBuffer buffer = new StringBuffer();
+//        while (m.find()) {
+//            String key = m.group(1);
+//            Object v = MapUtils.get(args, key, null);
+//            if(v == null) {
+//                if(skipIfNotExist) continue;
+//                else  v = def;
+//            }
+//            m.appendReplacement(buffer, v.toString());
+//        }
+//        m.appendTail(buffer);
+//        return buffer.toString();
+//    }
 
     /**
      * 字符串拼接 例如 stringBuild("高级黑啊{name},太原热{age}",{"name":"cc","age":"20"});
@@ -147,27 +147,27 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
      * @param no_r_n 是否屏蔽换行符
      * @return
      */
-    public static String stringBuild(String src, Map<String,Object> args,boolean skipIfNotExist,boolean no_r_n){
-        String def = new String();
-        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
-        Matcher m = p.matcher(src);
-        StringBuffer buffer = new StringBuffer();
-        while (m.find()) {
-            String key = m.group(1);
-            Object v = MapUtils.get(args, key, null);
-            if(v == null) {
-                if(skipIfNotExist) continue;
-                else  v = def;
-            }
-            if(no_r_n){
-                m.appendReplacement(buffer, v.toString().replaceAll("\r", "").replaceAll("\n", ""));
-            }else{
-                m.appendReplacement(buffer, v.toString());
-            }
-        }
-        m.appendTail(buffer);
-        return buffer.toString();
-    }
+//    public static String stringBuild(String src, Map<String,Object> args,boolean skipIfNotExist,boolean no_r_n){
+//        String def = new String();
+//        Pattern p = Pattern.compile("\\{([^\\}]+)\\}");
+//        Matcher m = p.matcher(src);
+//        StringBuffer buffer = new StringBuffer();
+//        while (m.find()) {
+//            String key = m.group(1);
+//            Object v = MapUtils.get(args, key, null);
+//            if(v == null) {
+//                if(skipIfNotExist) continue;
+//                else  v = def;
+//            }
+//            if(no_r_n){
+//                m.appendReplacement(buffer, v.toString().replaceAll("\r", "").replaceAll("\n", ""));
+//            }else{
+//                m.appendReplacement(buffer, v.toString());
+//            }
+//        }
+//        m.appendTail(buffer);
+//        return buffer.toString();
+//    }
 
     public static String toString(String args) {
         if (args != null)
