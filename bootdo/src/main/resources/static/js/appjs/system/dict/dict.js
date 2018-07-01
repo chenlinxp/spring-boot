@@ -21,6 +21,11 @@ $(function() {
 	//		$(selector).chosen(config[selector]);
 	//	}
 	load();
+    $("#bTable").on("click-row.bs.table",function (e,row,$element) {
+        //alert(row["id"]);
+        //alert($element.data);
+        view(row["id"]);
+    })
 });
 function selectLoad() {
 	var html = "";
@@ -199,7 +204,7 @@ function load() {
 					},
 					{
 						title : '操作',
-						field : 'id',
+						field : 'operation',
 						align : 'center',
 						formatter : function(value, row, index) {
 							var e = '<a class="btn btn-primary btn-sm ' + s_edit_h + '" href="#" mce_href="#" title="编辑" onclick="edit(\''
@@ -223,6 +228,17 @@ function reLoad() {
 		}
 	}
 	$('#bTable').bootstrapTable('refresh', opt);
+}
+
+function view(id) {
+    layer.open({
+        type : 2,
+        title : '查看',
+        maxmin : true,
+        shadeClose : false, // 点击遮罩关闭层
+        area : [ '800px', '520px' ],
+        content : prefix + '/view/'+id // iframe的url
+    });
 }
 function add() {
 	layer.open({
