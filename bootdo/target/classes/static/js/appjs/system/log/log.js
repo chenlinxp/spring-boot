@@ -3,14 +3,14 @@ $(function () {
     load();
 
 });
-$('#exampleTable').on('load-success.bs.table', function (e, data) {
+$('#bTable').on('load-success.bs.table', function (e, data) {
     if (data.total && !data.rows.length) {
-        $('#exampleTable').bootstrapTable('selectPage').bootstrapTable('refresh');
+        $('#bTable').bootstrapTable('selectPage').bootstrapTable('refresh');
     }
 });
 
 function load() {
-    $('#exampleTable')
+    $('#bTable')
         .bootstrapTable(
             {
                 method: 'get', // 服务器数据的请求方式 get or post
@@ -56,8 +56,20 @@ function load() {
                         checkbox: true
                     },
                     {
+                        visible: false,
                         field: 'id', // 列字段名
                         title: '序号' // 列标题
+                    },
+                    {
+                        field : 'SerialNumber',
+                        title : '序号',
+                        align : 'center',
+                        width : '30px',
+                        formatter: function (value ,row ,index){
+                            var pageNumber=$('#bTable').bootstrapTable("getOptions").pageNumber;
+                            var pageSize=$('#bTable').bootstrapTable("getOptions").pageSize;
+                            return (pageNumber-1)*pageSize+index+1;
+                        }
                     },
                     {
                         field: 'userId',
@@ -112,7 +124,7 @@ function load() {
 }
 
 function reLoad() {
-    $('#exampleTable').bootstrapTable('refresh');
+    $('#bTable').bootstrapTable('refresh');
 }
 
 function remove(id) {
@@ -142,7 +154,7 @@ function remove(id) {
 }
 
 function batchRemove() {
-    var rows = $('#exampleTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
+    var rows = $('#bTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
     if (rows.length == 0) {
         layer.msg("请选择要删除的数据");
         return;

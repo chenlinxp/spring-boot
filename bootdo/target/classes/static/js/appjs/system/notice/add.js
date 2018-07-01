@@ -69,7 +69,7 @@ function loadType(){
 						type : params.selected,
 					}
 				}
-				$('#exampleTable').bootstrapTable('refresh', opt);
+				$('#bTable').bootstrapTable('refresh', opt);
 			});
 		}
 	});

@@ -3,7 +3,7 @@ $(document).ready(function () {
     load();
 });
 var load = function () {
-    $('#exampleTable')
+    $('#bTable')
         .bootstrapTreeTable(
             {
                 id: 'menuId',
@@ -151,6 +151,6 @@ function edit(id) {
 }
 
 function batchRemove() {
-    // var rows = $('#exampleTable').bootstrapTable('getSelections');
+    // var rows = $('#bTable').bootstrapTable('getSelections');
 
 }

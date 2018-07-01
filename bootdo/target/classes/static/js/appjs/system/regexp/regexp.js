@@ -5,12 +5,12 @@ $(function() {
 });
 
 function load() {
-	$('#exampleTable')
+	$('#bTable')
 			.bootstrapTable(
 					{
 						method : 'get', // 服务器数据的请求方式 get or post
 						url : prefix + "/list", // 服务器数据的加载地址
-					//	showRefresh : true,
+					    showRefresh : true,
 					//	showToggle : true,
 					//	showColumns : true,
 						iconSize : 'outline',
@@ -53,8 +53,15 @@ function load() {
 									title : '主键'
 								},
 								{
-									field : 'rownum',
-									title : '序号'
+									field : 'SerialNumber',
+									title : '序号',
+                                    align : 'center',
+                                    width : '30px',
+									formatter: function (value ,row ,index){
+										var pageNumber=$('#bTable').bootstrapTable("getOptions").pageNumber;
+                                        var pageSize=$('#bTable').bootstrapTable("getOptions").pageSize;
+										return (pageNumber-1)*pageSize+index+1;
+									}
 								},
 							    {
 									field : 'rname', 
@@ -103,7 +110,7 @@ function load() {
 					});
 }
 function reLoad() {
-	$('#exampleTable').bootstrapTable('refresh');
+	$('#bTable').bootstrapTable('refresh');
 }
 function add() {
 	layer.open({

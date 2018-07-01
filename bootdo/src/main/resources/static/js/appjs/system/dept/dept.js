@@ -32,8 +32,7 @@ function load() {
 					{
 						field : 'name',
 						title : '部门名称',
-                        valign : 'center',
-						witth :20
+                        valign : 'center'
 					},
 					{
 						field : 'orderNum',
