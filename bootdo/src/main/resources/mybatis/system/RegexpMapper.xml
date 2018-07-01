@@ -6,28 +6,31 @@
 	<select id="get" resultType="com.bootdo.system.regexp.domain.RegexpDO">
 		select `RID`,`RNAME`,`RCODE`,`RCONTENT`,`RMARKS`,`RVALID` from sys_regexp where RID = #{value}
 	</select>
+	<!--`RID`,`RNAME`,`RCODE`,`RCONTENT`,`RMARKS`,`RVALID`-->
+	<!--select (@mycnt := @mycnt + 1) as rownum,res.*-->
+	<!--from-->
+	<!--(select * from SYS_REGEXP limit 0, 5 )-->
+	<!--as res, (select @mycnt := 0) num-->
 
 	<select id="list" resultType="com.bootdo.system.regexp.domain.RegexpDO">
-		select
-	   `RID`,`RNAME`,`RCODE`,`RCONTENT`,`RMARKS`,`RVALID` from sys_regexp
-        <where>  
-		  		  <if test="rid != null and rid != ''"> and RID = #{rid} </if>
-		  		  <if test="rname != null and rname != ''"> and RNAME = #{rname} </if>
-		  		  <if test="rcode != null and rcode != ''"> and RCODE = #{rcode} </if>
-		  		  <if test="rcontent != null and rcontent != ''"> and RCONTENT = #{rcontent} </if>
-		  		  <if test="rmarks != null and rmarks != ''"> and RMARKS = #{rmarks} </if>
-		  		  <if test="rvalid != null and rvalid != ''"> and RVALID = #{rvalid} </if>
-		  		</where>
-        <choose>
-            <when test="sort != null and sort.trim() != ''">
-                order by ${sort} ${order}
-            </when>
+		select RID,`RNAME`,`RCODE`,`RCONTENT`,`RMARKS`,`RVALID` from SYS_REGEXP
+		<where>
+		<if test="rid != null and rid != ''"> and RID = #{rid} </if>
+		<if test="rname != null and rname != ''"> and RNAME = #{rname} </if>
+		<if test="rcode != null and rcode != ''"> and RCODE = #{rcode} </if>
+		<if test="rcontent != null and rcontent != ''"> and RCONTENT = #{rcontent} </if>
+		<if test="rmarks != null and rmarks != ''"> and RMARKS = #{rmarks} </if>
+		<if test="rvalid != null and rvalid != ''"> and RVALID = #{rvalid} </if>
+	    </where>
+		<choose>
+			<when test="sort != null and sort.trim() != ''">
+				order by ${sort} ${order}
+			</when>
 			<otherwise>
-                order by RID desc
+				order by RID desc
 			</otherwise>
-        </choose>
+		</choose>
 		<if test="offset != null and limit != null">
-			limit #{offset}, #{limit}
 		</if>
 	</select>
 	

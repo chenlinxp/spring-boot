@@ -1,6 +1,7 @@
 package com.bootdo.system.regexp.service;
 
 import com.bootdo.system.regexp.domain.RegexpDO;
+import com.bootdo.system.regexp.domain.RegexpEXDO;
 
 import java.util.List;
 import java.util.Map;
@@ -17,6 +18,8 @@ public interface RegexpService {
 	RegexpDO get(String rid);
 	
 	List<RegexpDO> list(Map<String, Object> map);
+
+	List<RegexpEXDO> listEX(Map<String,Object> map);
 	
 	int count(Map<String, Object> map);
 	

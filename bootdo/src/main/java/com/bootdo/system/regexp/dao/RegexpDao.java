@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
+import com.bootdo.system.regexp.domain.RegexpEXDO;
 
 /**
  * 系统正则表达式
@@ -19,6 +20,10 @@ public interface RegexpDao {
 	RegexpDO get(String rid);
 	
 	List<RegexpDO> list(Map<String,Object> map);
+
+
+	List<RegexpEXDO> listEX(Map<String,Object> map);
+
 	
 	int count(Map<String,Object> map);
 	

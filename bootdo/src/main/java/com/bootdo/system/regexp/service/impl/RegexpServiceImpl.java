@@ -1,5 +1,6 @@
 package com.bootdo.system.regexp.service.impl;
 
+import com.bootdo.system.regexp.domain.RegexpEXDO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +26,12 @@ public class RegexpServiceImpl implements RegexpService {
 	@Override
 	public List<RegexpDO> list(Map<String, Object> map){
 		return regexpDao.list(map);
+	}
+
+
+	@Override
+	public List<RegexpEXDO> listEX(Map<String,Object> map){
+		return regexpDao.listEX(map);
 	}
 	
 	@Override

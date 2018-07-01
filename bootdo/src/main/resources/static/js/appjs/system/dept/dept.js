@@ -5,7 +5,7 @@ $(function() {
 });
 
 function load() {
-	$('#exampleTable')
+	$('#bTable')
 		.bootstrapTreeTable(
 			{
 				id : 'deptId',

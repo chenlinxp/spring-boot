@@ -5,7 +5,7 @@ $(function() {
 });
 
 function load() {
-	$('#exampleTable')
+	$('#bTable')
 		.bootstrapTable(
 			{
 				method : 'get', // 服务器数据的请求方式 get or post
@@ -136,7 +136,7 @@ function load() {
 			});
 }
 function reLoad() {
-	$('#exampleTable').bootstrapTable('refresh');
+	$('#bTable').bootstrapTable('refresh');
 }
 function add() {
 	layer.open({
@@ -183,7 +183,7 @@ function remove(id) {
 function resetPwd(id) {
 }
 function batchRemove() {
-	var rows = $('#exampleTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
+	var rows = $('#bTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
 	if (rows.length == 0) {
 		layer.msg("请选择要删除的数据");
 		return;

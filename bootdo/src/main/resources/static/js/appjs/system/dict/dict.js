@@ -43,7 +43,7 @@ function selectLoad() {
 						type : params.selected,
 					}
 				}
-				$('#exampleTable').bootstrapTable('refresh', opt);
+				$('#bTable').bootstrapTable('refresh', opt);
 			});
 		}
 	});
@@ -62,7 +62,6 @@ function dictTypeLoad() {
                 html += '<li value="' + data[i].did + '"><a href="javascript:void(0)"><i class="fa fa-folder"></i>'+ data[i].dname+ '</a></li>'
             }
             html += '</ul>';
-            alert(html);
             $("#dicttype").append(html);
             // $(".chosen-select").chosen({
             //     maxHeight : 200
@@ -75,7 +74,7 @@ function dictTypeLoad() {
                         did : params.value,
                     }
                 }
-                $('#exampleTable').bootstrapTable('refresh', opt);
+                $('#bTable').bootstrapTable('refresh', opt);
             });
         }
     });
@@ -83,7 +82,7 @@ function dictTypeLoad() {
 function load() {
 	selectLoad();
     dictTypeLoad();
-	$('#exampleTable')
+	$('#bTable')
 		.bootstrapTable(
 			{
 				method : 'get', // 服务器数据的请求方式 get or post
@@ -126,9 +125,21 @@ function load() {
 						checkbox : true
 					},
 					{
+						visible: false,
 						field : 'id',
 						title : '编号'
 					},
+                    {
+                        field : 'SerialNumber',
+                        title : '序号',
+                        align : 'center',
+                        width : '30px',
+                        formatter: function (value ,row ,index){
+                            var pageNumber=$('#bTable').bootstrapTable("getOptions").pageNumber;
+                            var pageSize=$('#bTable').bootstrapTable("getOptions").pageSize;
+                            return (pageNumber-1)*pageSize+index+1;
+                        }
+                    },
 					{
 						field : 'name',
 						title : '标签名'
@@ -211,7 +222,7 @@ function reLoad() {
 			type : $('.chosen-select').val(),
 		}
 	}
-	$('#exampleTable').bootstrapTable('refresh', opt);
+	$('#bTable').bootstrapTable('refresh', opt);
 }
 function add() {
 	layer.open({
@@ -266,7 +277,7 @@ function addD(type,description) {
 	});
 }
 function batchRemove() {
-	var rows = $('#exampleTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
+	var rows = $('#bTable').bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
 	if (rows.length == 0) {
 		layer.msg("请选择要删除的数据");
 		return;

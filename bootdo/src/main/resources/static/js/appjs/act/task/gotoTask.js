@@ -4,7 +4,7 @@ $(function() {
 });
 
 function load3() {
-	$('#exampleTable3')
+	$('#bTable3')
 		.bootstrapTable(
 			{
 				method : 'get', // 服务器数据的请求方式 get or post
