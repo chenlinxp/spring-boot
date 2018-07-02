@@ -92,9 +92,6 @@ public class NoticeController extends BaseController {
 	@PostMapping("/save")
 	@RequiresPermissions("system:notice:add")
 	public R save(NoticeDO Notice) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		Notice.setCreateBy(getUserId());
 		if (NoticeService.save(Notice) > 0) {
 			return R.ok();
@@ -109,9 +106,6 @@ public class NoticeController extends BaseController {
 	@RequestMapping("/update")
 	@RequiresPermissions("system:notice:edit")
 	public R update(NoticeDO Notice) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		NoticeService.update(Notice);
 		return R.ok();
 	}
@@ -123,9 +117,6 @@ public class NoticeController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:notice:remove")
 	public R remove(Long id) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		if (NoticeService.remove(id) > 0) {
 			return R.ok();
 		}
@@ -139,9 +130,6 @@ public class NoticeController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:notice:batchRemove")
 	public R remove(@RequestParam("ids[]") Long[] ids) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		NoticeService.batchRemove(ids);
 		return R.ok();
 	}

@@ -21,11 +21,11 @@ $(function() {
 	//		$(selector).chosen(config[selector]);
 	//	}
 	load();
-    $("#bTable").on("click-row.bs.table",function (e,row,$element) {
-        //alert(row["id"]);
-        //alert($element.data);
-        view(row["id"]);
-    })
+    // $("#bTable").on("click-row.bs.table",function (e,row,$element) {
+    //     //alert(row["id"]);
+    //     //alert($element.data);
+    //     view(row["id"]);
+    // })
 });
 function selectLoad() {
 	var html = "";
@@ -86,7 +86,7 @@ function dictTypeLoad() {
 }
 function load() {
 	selectLoad();
-    dictTypeLoad();
+   // dictTypeLoad();
 	$('#bTable')
 		.bootstrapTable(
 			{
@@ -125,6 +125,10 @@ function load() {
 				// pageSize, pageNumber, searchText, sortName,
 				// sortOrder.
 				// 返回false将会终止请求
+                onDblClickRow: function (row) {
+                    console.log("click:" + row.playerName);
+                    view(row["id"]);
+                },
 				columns : [
 					{
 						checkbox : true

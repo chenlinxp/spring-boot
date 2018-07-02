@@ -92,9 +92,7 @@ public class UserController extends BaseController {
 	@PostMapping("/save")
 	@ResponseBody
 	R save(UserDO user) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		user.setPassword(MD5Utils.encrypt(user.getUsername(), user.getPassword()));
 		if (userService.save(user) > 0) {
 			return R.ok();
@@ -107,9 +105,7 @@ public class UserController extends BaseController {
 	@PostMapping("/update")
 	@ResponseBody
 	R update(UserDO user) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		if (userService.update(user) > 0) {
 			return R.ok();
 		}
@@ -122,9 +118,7 @@ public class UserController extends BaseController {
 	@PostMapping("/updatePeronal")
 	@ResponseBody
 	R updatePeronal(UserDO user) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		if (userService.updatePersonal(user) > 0) {
 			return R.ok();
 		}
@@ -137,9 +131,7 @@ public class UserController extends BaseController {
 	@PostMapping("/remove")
 	@ResponseBody
 	R remove(Long id) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		if (userService.remove(id) > 0) {
 			return R.ok();
 		}
@@ -151,9 +143,7 @@ public class UserController extends BaseController {
 	@PostMapping("/batchRemove")
 	@ResponseBody
 	R batchRemove(@RequestParam("ids[]") Long[] userIds) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		int r = userService.batchremove(userIds);
 		if (r > 0) {
 			return R.ok();
@@ -183,9 +173,6 @@ public class UserController extends BaseController {
 	@PostMapping("/resetPwd")
 	@ResponseBody
 	R resetPwd(UserVO userVO) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		try{
 			userService.resetPwd(userVO,getUser());
 			return R.ok();
@@ -199,9 +186,6 @@ public class UserController extends BaseController {
 	@PostMapping("/adminResetPwd")
 	@ResponseBody
 	R adminResetPwd(UserVO userVO) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		try{
 			userService.adminResetPwd(userVO);
 			return R.ok();

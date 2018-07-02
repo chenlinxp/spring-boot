@@ -84,9 +84,6 @@ public class DeptController extends BaseController {
 	@PostMapping("/save")
 	@RequiresPermissions("system:dept:add")
 	public R save(DeptDO dept) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		if (deptService.save(dept) > 0) {
 			return R.ok();
 		}
@@ -100,9 +97,6 @@ public class DeptController extends BaseController {
 	@RequestMapping("/update")
 	@RequiresPermissions("system:dept:edit")
 	public R update(DeptDO dept) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		if (deptService.update(dept) > 0) {
 			return R.ok();
 		}
@@ -116,9 +110,6 @@ public class DeptController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:dept:remove")
 	public R remove(Long deptId) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("parentId", deptId);
 		if(deptService.count(map)>0) {
@@ -141,9 +132,6 @@ public class DeptController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:dept:batchRemove")
 	public R remove(@RequestParam("ids[]") Long[] deptIds) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		deptService.batchRemove(deptIds);
 		return R.ok();
 	}

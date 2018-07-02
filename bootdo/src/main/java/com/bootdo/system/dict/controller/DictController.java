@@ -64,6 +64,19 @@ public class DictController extends BaseController {
 		return "system/dict/add";
 	}
 
+	/**
+	 * 保存
+	 */
+	@ResponseBody
+	@PostMapping("/save")
+	@RequiresPermissions("system:dict:add")
+	public R save(DictDO dict) {
+		if (dictService.save(dict) > 0) {
+			return R.ok();
+		}
+		return R.error();
+	}
+
 	@GetMapping("/edit/{id}")
 	@RequiresPermissions("system:dict:edit")
 	String edit(@PathVariable("id") Long id, Model model) {
@@ -72,20 +85,12 @@ public class DictController extends BaseController {
 		return "system/dict/edit";
 	}
 
-	/**
-	 * 保存
-	 */
-	@ResponseBody
-	@PostMapping("/save")
-	@RequiresPermissions("system:dict:add")
-	public R save(DictDO dict) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
-		if (dictService.save(dict) > 0) {
-			return R.ok();
-		}
-		return R.error();
+	@GetMapping("/view/{id}")
+	@RequiresPermissions("system:dict:dict")
+	String view(@PathVariable("id") Long id, Model model) {
+		DictDO dict = dictService.get(id);
+		model.addAttribute("dict", dict);
+		return "system/dict/view";
 	}
 
 	/**
@@ -95,9 +100,6 @@ public class DictController extends BaseController {
 	@RequestMapping("/update")
 	@RequiresPermissions("system:dict:edit")
 	public R update(DictDO dict) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		dictService.update(dict);
 		return R.ok();
 	}
@@ -109,9 +111,6 @@ public class DictController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:dict:remove")
 	public R remove(Long id) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		if (dictService.remove(id) > 0) {
 			return R.ok();
 		}
@@ -125,9 +124,6 @@ public class DictController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("system:dict:batchRemove")
 	public R remove(@RequestParam("ids[]") Long[] ids) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
 		dictService.batchRemove(ids);
 		return R.ok();
 	}
