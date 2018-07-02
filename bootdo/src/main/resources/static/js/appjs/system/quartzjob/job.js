@@ -144,7 +144,7 @@ function load() {
 
                     {
                         title: '操作',
-                        field: 'id',
+                        field: 'operation',
                         align: 'center',
                         formatter: function (value, row, index) {
                             var e = '<a class="btn btn-primary btn-sm" href="#" mce_href="#" title="编辑" onclick="edit(\''
