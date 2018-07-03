@@ -1,9 +1,9 @@
-<head th:fragment="header">
+<head th:fragment="header" >
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<title th:text="${title}">JustDo</title>
+	<meta name="keywords" th:content="${keywords}" content="JustDo">
+	<meta name="description" th:content="${description}" content="JustDo">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href="css/bootstrap.min.css?v=3.3.6"
 		  th:href="@{/css/bootstrap.min.css?v=3.3.6}" rel="stylesheet">

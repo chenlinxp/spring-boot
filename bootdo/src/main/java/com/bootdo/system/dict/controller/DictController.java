@@ -42,7 +42,12 @@ public class DictController extends BaseController {
 
 	@GetMapping()
 	@RequiresPermissions("system:dict:dict")
-	String dict() {
+	String dict(Model model) {
+
+		model.addAttribute("title", "数据字典列表");
+		model.addAttribute("keywords", "数据字典");
+		model.addAttribute("description", "数据字典列表");
+
 		return "system/dict/dict";
 	}
 

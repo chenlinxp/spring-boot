@@ -26,6 +26,17 @@ $(function() {
     //     //alert($element.data);
     //     view(row["id"]);
     // })
+
+    //点击选中列，判断checkbox选中与取消选中
+    // $($(bTable).on).on('click-cell.bs.table', function (e,field,value, row, $element){
+    //     if(field=="chkbox"||field=="id"){//根据某个字段名判断
+    //         if($("chkbox").is(':checked')) {
+    //             $("chkbox").prop("checked",false);
+    //         }else{
+    //             $("chkbox").prop("checked",true);
+    //         }
+    //     }
+    // });
 });
 function selectLoad() {
 	var html = "";
@@ -123,21 +134,29 @@ function load() {
 				// queryParamsType = 'limit' ,返回参数必须包含
 				// limit, offset, search, sort, order 否则, 需要包含:
 				// pageSize, pageNumber, searchText, sortName,
-				// sortOrder.
+				// sortOrder.e, row, element
 				// 返回false将会终止请求
-                onDblClickRow: function (row) {
-                    console.log("click:" + row.playerName);
+                onDblClickRow: function (row, element) {
                     view(row["id"]);
+                },
+                onClickRow: function (row, element) {
+                    $('.success').removeClass('success');//去除之前选中的行的，选中样式
+                    $(element).addClass('success');//添加当前选中的 success样式用于区别
+                    $.each($("#bTable  input[type='checkbox']"), function(index, value) {
+                        $(value).prop("checked",false);
+                    });
+                    $(element).find("input[type='checkbox']").prop("checked",true);
                 },
 				columns : [
 					{
+                        field : 'chkbox',
 						checkbox : true
 					},
-					{
-						visible: false,
-						field : 'id',
-						title : '编号'
-					},
+                    {
+                        field : 'id',
+                        visible : false,
+                        title : 'id'
+                    },
                     {
                         field : 'SerialNumber',
                         title : '序号',
@@ -210,6 +229,7 @@ function load() {
 						title : '操作',
 						field : 'operation',
 						align : 'center',
+						width : '150px',
 						formatter : function(value, row, index) {
 							var e = '<a class="btn btn-primary btn-sm ' + s_edit_h + '" href="#" mce_href="#" title="编辑" onclick="edit(\''
 								+ row.id
