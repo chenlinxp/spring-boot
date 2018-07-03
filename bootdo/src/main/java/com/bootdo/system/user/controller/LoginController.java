@@ -44,8 +44,10 @@ public class LoginController extends BaseController {
 	FileService fileService;
 	@GetMapping({ "/", "" })
 	String welcome(Model model) {
-
-		return "redirect:/blog";
+		model.addAttribute("title", "登录");
+		model.addAttribute("keywords", "JutsDo");
+		model.addAttribute("description", "JutsDo登录");
+		return "redirect:/login";
 	}
 
 	@Log("请求访问主页")
@@ -70,7 +72,10 @@ public class LoginController extends BaseController {
 	}
 
 	@GetMapping("/login")
-	String login() {
+	String login(Model model) {
+		model.addAttribute("title", "登录");
+		model.addAttribute("keywords", "JutsDo");
+		model.addAttribute("description", "JutsDo登录");
 		return "login";
 	}
 

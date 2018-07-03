@@ -32,6 +32,17 @@ function load() {
 						// pageSize, pageNumber, searchText, sortName,
 						// sortOrder.
 						// 返回false将会终止请求
+                        onClickRow: function (row, element) {
+                            $('.success').removeClass('success');//去除之前选中的行的，选中样式
+                            $(element).addClass('success');//添加当前选中的 success样式用于区别
+                            $("#bTable").bootstrapTable("uncheckAll");
+                            var rowindex=$(element).attr("data-index");
+                            $("#bTable").bootstrapTable('check',rowindex);
+                            // $.each($("#bTable  input[type='checkbox']"), function(index, value) {
+                            //     $(value).prop("checked",false);
+                            // });
+                            // $(element).find("input[type='checkbox']").prop("checked","checked");
+                        },
 						columns : [
 								{ // 列配置项
 									// 数据类型，详细参数配置参见文档http://bootstrap-table.wenzhixin.net.cn/zh-cn/documentation/
