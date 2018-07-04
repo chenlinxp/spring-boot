@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bootdo/pom.xml" />
+        <option value="$PROJECT_DIR$/justdo/pom.xml" />
       </list>
     </option>
   </component>
