@@ -214,11 +214,11 @@
             <version>1.9.2</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>net.sourceforge.pinyin4j</groupId>-->
-            <!--<artifactId>pinyin4j</artifactId>-->
-            <!--<version>2.5.0</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>net.sourceforge.pinyin4j</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
+        </dependency>
 
 
         <!--war包部署需要-->
