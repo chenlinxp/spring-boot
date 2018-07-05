@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71cd79bf-5cbb-4725-8a03-5d76db82da1a" name="Default" comment="">
+    <list default="true" id="71cd79bf-5cbb-4725-8a03-5d76db82da1a" name="Default" comment="列表显示的优化">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pinyin4j_pinyin4j_2_5_0.xml" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-08/2018-06-08.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-09/2018-06-09.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-10/2018-06-10.log" afterPath="" />
@@ -16,9 +17,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-27/2018-06-27.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-28/2018-06-28.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-29/2018-06-29.log" afterPath="" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> master
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/bootdo/target/" />
     <ignored path="$PROJECT_DIR$/justdo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,6 +34,7 @@
     <SUITE FILE_PATH="coverage/bootdo$BootdoApplication.coverage" NAME="BootdoApplication Coverage Results" MODIFIED="1529999445350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf />
   </component>
@@ -93,86 +97,31 @@
       <dir>$PROJECT_DIR$/bootdo/src/main/resources/templates/system</dir>
       <dir>$PROJECT_DIR$/bootdo</dir>
     </dirStrings>
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="spring-boot" />
+>>>>>>> master
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="PRESERVE_MERGES" value="true" />
-    <option name="ONTO" value="refs/remotes/origin/dev" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="chenlinxp &lt;34032458+chenlinxp@users.noreply.github.com&gt;inxp" />
-        <option value="陈林" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/dept/dept.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/dict/dict.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/file/file.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/generator/Controller.java.vm" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/generator/list.html.vm" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/menu/menu.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/notice/notice.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/notice/selfnotice.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/regexp/regexp.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/role/role.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/include.html" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/user.html" />
-        <option value="$PROJECT_DIR$/justdo/src/test/java/com/bootdo/testDemo/TestDemo.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/SpringBootSampleApplication.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/config/BootdoConfig.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/config/WebConfigurer.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/file/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/templates/error/404.html" />
-        <option value="$PROJECT_DIR$/justdo/pom.xml" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/controller/ModelController.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/domain/TaskDO.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisCache.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisCacheManager.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisManager.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisSessionDAO.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/PageUtils.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/SerializeUtils.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/controller/SalaryController.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/dao/SalaryDao.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/domain/SalaryDO.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/service/SalaryService.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/dao/ContentDao.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/domain/ContentDO.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/file/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/notice/dao/NoticeRecordDao.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/user/dao/UserRoleDao.java" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/dept/dept.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/menu/menu.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/model/model.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/process/process.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/salary/salary.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/task/gotoTask.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/task/totoTask.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/blog/bComments/bComments.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/blog/bContent/bContent.js" />
-        <option value="$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/generator/list.js" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -205,6 +154,11 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+>>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,43 +171,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
         </subPane>
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="justdo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> master
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dict" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/templates/system/dict" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/exception" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/utils" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bootdo.system.regexp.domain" />
-      <recent name="com.bootdo.common.service.impl" />
-      <recent name="com.bootdo.common.service" />
-      <recent name="com.bootdo.common.dao" />
-      <recent name="com.bootdo.common.domain" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/static/js" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/system" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo" />
-      <recent name="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,28 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JustdoApplication">
-    <configuration default="false" name="All in bootdo (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bootdo (1)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -526,7 +454,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -596,7 +523,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bootdo" />
+      <module name="justdo" />
       <envs />
       <method />
     </configuration>
@@ -655,12 +582,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -676,33 +597,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="JustdoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.justdo.JustdoApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="justdo" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.JustdoApplication" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in bootdo (1)" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in bootdo (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71cd79bf-5cbb-4725-8a03-5d76db82da1a" name="Default" comment="" />
-      <created>1528434407516</created>
+      <changelist id="71cd79bf-5cbb-4725-8a03-5d76db82da1a" name="Default" comment="列表显示的优化" />
+      <created>1530716058291</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1528434407516</updated>
       <workItem from="1528434410173" duration="45992000" />
       <workItem from="1529901892945" duration="86785000" />
@@ -827,45 +732,30 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1530504161197</updated>
+=======
+      <updated>1530716058291</updated>
+      <workItem from="1530716060723" duration="441000" />
+>>>>>>> master
     </task>
-    <task id="LOCAL-00017" summary="修复部分列表序号的问题&#10;优化代码生成器模版，增加自增序号">
-      <created>1530504417860</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1530504417860</updated>
-    </task>
-    <task id="LOCAL-00018" summary="增加列表行内选择checkbox也为选中的状态">
-      <created>1530598790567</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1530598790567</updated>
-    </task>
-    <task id="LOCAL-00019" summary="优化单行选中">
-      <created>1530628637351</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1530628637351</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_bootdo_(1) - 2018.06.08 at 13h 29m 42s.xml">
-      <configuration name="All in bootdo (1)" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="199840000" />
+=======
+    <option name="totallyTimeSpent" value="449000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32708332" sideWeight="0.43833944" order="0" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.504884" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> master
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18559219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -877,16 +767,25 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.7197802" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3910387" sideWeight="0.7417582" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.3827839" order="15" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.495116" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.492674" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.495116" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.497558" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2789988" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.495116" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728938" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -899,7 +798,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.36813188" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5616606" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5781441" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> master
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -946,24 +849,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/bootdo" />
-    </ignored-roots>
-    <MESSAGE value="修复问题" />
-    <MESSAGE value="errorcontroller" />
-    <MESSAGE value="删除无用的 代码" />
-    <MESSAGE value="列表显示的优化" />
-    <MESSAGE value="test" />
-    <MESSAGE value="错误修改" />
-    <MESSAGE value="增加列表行点击功能" />
-    <MESSAGE value="修复行内点击与编辑的冲突，删除无用的代码" />
-    <MESSAGE value="修复部分列表序号的问题&#10;优化代码生成器模版，增加自增序号" />
-    <MESSAGE value="增加列表行内选择checkbox也为选中的状态" />
-    <MESSAGE value="优化单行选中" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化单行选中" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1009,6 +894,7 @@
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
+<<<<<<< HEAD
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/dept/controller/DeptController.java</url>
           <line>111</line>
@@ -1020,8 +906,10 @@
           <line>323</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+=======
+>>>>>>> master
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1030,6 +918,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/role/role.html" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/include.html" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/user.html" />
@@ -1051,6 +940,58 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/justdo/bootdo.iml" />
+=======
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/domain/RegexpDO.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/dao/RegexpDao.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/service/RegexpService.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/service/impl/RegexpServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/domain/RegexpEXDO.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/mybatis/system/RegexpMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/controller/RegexpController.java" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/model/model.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/process/process.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/salary/salary.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/task/gotoTask.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/task/totoTask.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/add.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/selfnotice.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/demo/bootstrap-table-demo.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/model/model.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/process/process.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/gotoTask.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/task.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/todoTask.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/bContent/bContent.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/bcomments/bComments.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/dict/dict.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.html.vm" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.js.vm" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/log/log.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/menu/menu.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/notice/notice.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/notice/selfnotice.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/online/online.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/quartzjob/quartzjob.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/regexp/regexp.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/role/role.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/user/user.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/regexp/regexp.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/user/user.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/role/role.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/quartzjob/job.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/online/online.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/notice.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/menu/menu.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/log/log.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/job/job.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/blog/bComments/bComments.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/blog/bContent/bContent.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/dept/dept.html" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dict/dict.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/generator/list.js" />
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dept/dept.js" />
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1059,6 +1000,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/JustdoApplication.java" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/config/ActivitiConfig.java" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/controller/ModelController.java" />
@@ -1192,5 +1134,7 @@
         </settings>
       </state>
     </states>
+=======
+>>>>>>> master
   </component>
 </project>
