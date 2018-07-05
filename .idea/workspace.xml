@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71cd79bf-5cbb-4725-8a03-5d76db82da1a" name="Default" comment="列表显示的优化">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_pinyin4j_pinyin4j_2_5_0.xml" afterPath="" />
-<<<<<<< HEAD
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-08/2018-06-08.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-09/2018-06-09.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-10/2018-06-10.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-11/2018-06-11.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-12/2018-06-12.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-13/2018-06-13.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-22/2018-06-22.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-23/2018-06-23.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-25/2018-06-25.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-26/2018-06-26.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-27/2018-06-27.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-28/2018-06-28.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/applog/2018-06-29/2018-06-29.log" afterPath="" />
-=======
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/justdo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,84 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bootdo$BootdoApplication.coverage" NAME="BootdoApplication Coverage Results" MODIFIED="1529999445350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/justdo$JustdoApplication.coverage" NAME="JustdoApplication Coverage Results" MODIFIED="1529999445350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-<<<<<<< HEAD
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>面向</find>
-      <find>面向x</find>
-      <find>面向xue</find>
-      <find>面向xue x</find>
-      <find>面向xue xi</find>
-      <find>面向学习</find>
-      <find>lineoption</find>
-      <find>li</find>
-      <find>了解</find>
-      <find>exampleTable</find>
-      <find>alert</find>
-      <find>BootDo</find>
-      <find>\	\	if \(Constant\.DEMO_ACCOUNT\.equals\(getUsername\(\)\)\) \{\n\	\	\	return R\.error\(1\, \&quot;演示系统不允许修改\,完整体验请部署程序\&quot;\)\;\n\	\	\}</find>
-      <find>JustDo</find>
-      <find>label</find>
-      <find>class=&quot;form-group&quot;</find>
-      <find>search</find>
-      <find>addAttribute</find>
-      <find>top-search</find>
-      <find>b</find>
-      <find>boot</find>
-      <find>boot d</find>
-      <find>bootdo</find>
-      <find>ootdo</find>
-      <find>Bootdo</find>
-      <find>1</find>
-      <find>1992</find>
-      <find>1992lcg@163.com</find>
-      <find>chglee</find>
-      <find>#exampleToolbar</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>NoticeRecordDO</replace>
-      <replace>NoticeDO</replace>
-      <replace>system.notice</replace>
-      <replace>Notice</replace>
-      <replace>system/notice</replace>
-      <replace>notice</replace>
-      <replace>system:notice</replace>
-      <replace />
-      <replace>bTable</replace>
-      <replace>span</replace>
-      <replace>JustDo</replace>
-      <replace>justdo</replace>
-      <replace>Justdo</replace>
-      <replace>13233669915@qq.com</replace>
-      <replace>chenlin</replace>
-      <replace>#bToolbar</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain</dir>
-      <dir>$PROJECT_DIR$/bootdo/src/main/resources/templates/generator</dir>
-      <dir>$PROJECT_DIR$/bootdo/src/main/resources/templates</dir>
-      <dir>$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/exception</dir>
-      <dir>$PROJECT_DIR$/bootdo/src/main/resources/templates/system</dir>
-      <dir>$PROJECT_DIR$/bootdo</dir>
-    </dirStrings>
-=======
   <component name="FavoritesManager">
     <favorites_list name="spring-boot" />
->>>>>>> master
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
+      <file leaf-file-name="PinyinUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/PinyinUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/justdo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,6 +49,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/justdo/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -153,12 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-<<<<<<< HEAD
-=======
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
->>>>>>> master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,12 +100,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-<<<<<<< HEAD
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-=======
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring-boot" />
@@ -197,7 +120,8 @@
           </PATH>
         </subPane>
       </pane>
->>>>>>> master
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Justdo">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -454,6 +378,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -582,6 +507,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -597,6 +528,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="Justdo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.justdo.JustdoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="justdo" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Justdo" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -607,157 +549,31 @@
       <created>1530716058291</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1528434407516</updated>
-      <workItem from="1528434410173" duration="45992000" />
-      <workItem from="1529901892945" duration="86785000" />
-      <workItem from="1530240319690" duration="7912000" />
-      <workItem from="1530255790433" duration="1004000" />
-      <workItem from="1530353671911" duration="9276000" />
-      <workItem from="1530418519565" duration="5349000" />
-      <workItem from="1530435723864" duration="9168000" />
-      <workItem from="1530455592497" duration="533000" />
-      <workItem from="1530492827117" duration="16443000" />
-      <workItem from="1530578820146" duration="17324000" />
-      <workItem from="1530716997718" duration="54000" />
+      <updated>1530716058291</updated>
+      <workItem from="1530716060723" duration="441000" />
+      <workItem from="1530752583151" duration="1511000" />
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1530152467282</created>
+    <task id="LOCAL-00001" summary="列表显示的优化">
+      <created>1530752792323</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1530152467282</updated>
+      <updated>1530752792323</updated>
     </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1530242181842</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1530242181842</updated>
-    </task>
-    <task id="LOCAL-00003" summary="修复问题">
-      <created>1530368041376</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1530368041376</updated>
-    </task>
-    <task id="LOCAL-00004" summary="errorcontroller">
-      <created>1530368276197</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1530368276197</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <created>1530370686337</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1530370686337</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test">
-      <created>1530370949386</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1530370949386</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test">
-      <created>1530372043511</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1530372043511</updated>
-    </task>
-    <task id="LOCAL-00008" summary="删除无用的 代码">
-      <created>1530408971065</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1530408971065</updated>
-    </task>
-    <task id="LOCAL-00009" summary="test">
-      <created>1530418573092</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1530418573092</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test">
-      <created>1530426003323</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1530426003323</updated>
-    </task>
-    <task id="LOCAL-00011" summary="列表显示的优化">
-      <created>1530448281271</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1530448281271</updated>
-    </task>
-    <task id="LOCAL-00012" summary="错误修改">
-      <created>1530448801690</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1530448801690</updated>
-    </task>
-    <task id="LOCAL-00013" summary="增加列表行点击功能">
-      <created>1530455717104</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1530455717104</updated>
-    </task>
-    <task id="LOCAL-00014" summary="修复行内点击与编辑的冲突，删除无用的代码">
-      <created>1530499908770</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1530499908770</updated>
-    </task>
-    <task id="LOCAL-00015" summary="修复行内点击与编辑的冲突，删除无用的代码">
-      <created>1530501339044</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1530501339044</updated>
-    </task>
-    <task id="LOCAL-00016" summary="修复部分列表序号的问题&#10;优化代码生成器模版，增加自增序号">
-      <created>1530504161197</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1530504161197</updated>
-=======
-      <updated>1530716058291</updated>
-      <workItem from="1530716060723" duration="441000" />
->>>>>>> master
-    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="199840000" />
-=======
-    <option name="totallyTimeSpent" value="449000" />
->>>>>>> master
+    <option name="totallyTimeSpent" value="1960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32708332" sideWeight="0.43833944" order="0" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.504884" order="0" side_tool="true" content_ui="tabs" />
->>>>>>> master
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32721713" sideWeight="0.5095238" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18559219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18095239" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -767,25 +583,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3910387" sideWeight="0.7417582" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.382263" sideWeight="0.7380952" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.3827839" order="15" side_tool="false" content_ui="tabs" />
->>>>>>> master
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.3791209" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.497558" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.495116" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.497558" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2789988" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.495116" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728938" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
->>>>>>> master
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32721713" sideWeight="0.4904762" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26904762" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel for Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -795,14 +603,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.36813188" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5616606" order="8" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5781441" order="8" side_tool="false" content_ui="tabs" />
->>>>>>> master
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -849,65 +652,55 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="列表显示的优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="列表显示的优化" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/utils/FileUtil.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/FileUtil.java</url>
           <line>9</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/GeneratorController.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/controller/GeneratorController.java</url>
           <line>51</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/GeneratorController.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/controller/GeneratorController.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/GeneratorController.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/controller/GeneratorController.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/GeneratorController.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/controller/GeneratorController.java</url>
           <line>84</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/Message.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/oa/domain/Message.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/user/service/impl/SessionServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/user/service/impl/SessionServiceImpl.java</url>
           <line>89</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-<<<<<<< HEAD
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/dept/controller/DeptController.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dict/dict.js</url>
-          <line>323</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-=======
->>>>>>> master
       </breakpoints>
       <option name="time" value="34" />
     </breakpoint-manager>
@@ -918,223 +711,70 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/role/role.html" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/include.html" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/user.html" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/test/java/com/bootdo/testDemo/TestDemo.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/SpringBootSampleApplication.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/config/WebConfigurer.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/file/service/impl/FileServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/user/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/error/404.html" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/config/JustdoConfig.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/config/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/PinyinUtil.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/justdo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/justdo/bootdo.iml" />
-=======
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/domain/RegexpDO.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/dao/RegexpDao.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/service/RegexpService.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/service/impl/RegexpServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/domain/RegexpEXDO.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/mybatis/system/RegexpMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/regexp/controller/RegexpController.java" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/model/model.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/process/process.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/salary/salary.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/task/gotoTask.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/act/task/totoTask.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/add.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/selfnotice.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/demo/bootstrap-table-demo.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/model/model.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/process/process.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/gotoTask.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/task.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/act/task/todoTask.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/bContent/bContent.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/bcomments/bComments.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/dict/dict.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.html.vm" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/generator/list.js.vm" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/log/log.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/menu/menu.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/notice/notice.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/notice/selfnotice.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/online/online.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/quartzjob/quartzjob.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/regexp/regexp.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/role/role.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/user/user.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/regexp/regexp.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/user/user.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/role/role.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/quartzjob/job.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/online/online.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/notice/notice.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/menu/menu.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/log/log.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/job/job.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/blog/bComments/bComments.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/blog/bContent/bContent.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/templates/system/dept/dept.html" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dict/dict.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/generator/list.js" />
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/static/js/appjs/system/dept/dept.js" />
->>>>>>> master
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/JustdoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/config/ActivitiConfig.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/controller/ModelController.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/domain/TaskDO.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/controller/BlogController.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisCache.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisCacheManager.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisManager.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/redis/shiro/RedisSessionDAO.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/PageUtils.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/SerializeUtils.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/config/ShiroConfig.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/controller/SalaryController.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/dao/SalaryDao.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/domain/SalaryDO.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/activiti/service/SalaryService.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/controller/ContentController.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/dao/ContentDao.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/domain/ContentDO.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/blog/service/ContentService.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/file/controller/FileController.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/notice/dao/NoticeRecordDao.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/user/dao/UserRoleDao.java" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/menu/menu.js" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/menu/edit.js" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/dept/dept.js" />
-    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/dict/dict.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/regexp/service/RegexpService.java" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/regexp/service/impl/RegexpServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/regexp/domain/RegexpEXDO.java" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/mybatis/system/RegexpMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/system/regexp/controller/RegexpController.java" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/model/model.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/process/process.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/salary/salary.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/task/gotoTask.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/act/task/totoTask.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/notice/add.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/notice/selfnotice.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/demo/bootstrap-table-demo.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/act/model/model.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/act/process/process.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/act/task/gotoTask.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/act/task/task.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/act/task/todoTask.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/blog/bContent/bContent.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/blog/bcomments/bComments.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/dict/dict.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/generator/list.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/generator/list.html.vm" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/generator/list.js.vm" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/log/log.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/menu/menu.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/notice/notice.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/notice/selfnotice.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/online/online.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/quartzjob/quartzjob.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/regexp/regexp.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/role/role.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/user/user.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/regexp/regexp.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/user/user.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/role/role.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/quartzjob/job.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/online/online.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/notice/notice.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/menu/menu.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/log/log.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/job/job.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/blog/bComments/bComments.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/blog/bContent/bContent.js" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/templates/system/dept/dept.html" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/dict/dict.js" />
     <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/generator/list.js" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>justdo</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
-=======
->>>>>>> master
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/resources/static/js/appjs/system/dept/dept.js" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/justdo/src/main/java/com/justdo/common/utils/PinyinUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/justdo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
