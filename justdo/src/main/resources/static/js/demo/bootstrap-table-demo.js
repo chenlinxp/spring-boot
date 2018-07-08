@@ -160,7 +160,7 @@ function buildTable($el, cells, rows) {
       showRefresh: true,
       showToggle: true,
       showColumns: true,
-      toolbar: '#exampleToolbar',
+      toolbar: '#bToolbar',
       iconSize: 'outline',
       icons: {
         refresh: 'glyphicon-repeat',

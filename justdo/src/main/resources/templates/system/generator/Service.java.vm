@@ -26,5 +26,5 @@ public interface ${className}Service {
 	
 	int remove(${pk.attrType} ${pk.attrname});
 	
-	int batchRemove(${pk.attrType}[] ${pk.attrname}s);
+	int batchDel(${pk.attrType}[] ${pk.attrname}s);
 }

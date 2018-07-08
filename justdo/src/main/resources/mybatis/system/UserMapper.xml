@@ -142,7 +142,7 @@
 		delete from sys_user where user_id = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_user where user_id in 
 		<foreach item="userId" collection="array" open="(" separator="," close=")">
 			#{userId}

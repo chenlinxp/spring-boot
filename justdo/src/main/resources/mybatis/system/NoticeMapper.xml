@@ -112,7 +112,7 @@
 		delete from oa_notice where id = #{value}
 	</delete>
 
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from oa_notice where id in
 		<foreach item="id" collection="array" open="(" separator=","
 			close=")">

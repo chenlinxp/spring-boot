@@ -117,7 +117,7 @@
 		delete from sys_task where id = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_task where id in 
 		<foreach item="id" collection="array" open="(" separator="," close=")">
 			#{id}

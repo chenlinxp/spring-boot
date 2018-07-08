@@ -26,5 +26,5 @@ public interface OrganService {
 	
 	int remove(String organid);
 	
-	int batchRemove(String[] organids);
+	int batchDel(String[] organids);
 }

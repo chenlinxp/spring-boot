@@ -86,7 +86,7 @@
 		delete from sys_regexp where RID = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_regexp where RID in 
 		<foreach item="rid" collection="array" open="(" separator="," close=")">
 			#{rid}

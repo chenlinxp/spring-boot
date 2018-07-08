@@ -174,7 +174,7 @@
 		delete from salary where id = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from salary where id in 
 		<foreach item="id" collection="array" open="(" separator="," close=")">
 			#{id}

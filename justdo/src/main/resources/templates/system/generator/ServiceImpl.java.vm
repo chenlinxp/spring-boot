@@ -48,8 +48,8 @@ public class ${className}ServiceImpl implements ${className}Service {
 	}
 	
 	@Override
-	public int batchRemove(${pk.attrType}[] ${pk.attrname}s){
-		return ${classname}Dao.batchRemove(${pk.attrname}s);
+	public int batchDel(${pk.attrType}[] ${pk.attrname}s){
+		return ${classname}Dao.batchDel(${pk.attrname}s);
 	}
 	
 }

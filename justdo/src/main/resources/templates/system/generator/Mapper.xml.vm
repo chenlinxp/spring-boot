@@ -73,7 +73,7 @@
 		delete from ${tableName} where ${pk.columnName} = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from ${tableName} where ${pk.columnName} in 
 		<foreach item="${pk.attrname}" collection="array" open="(" separator="," close=")">
 			#{${pk.attrname}}

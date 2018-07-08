@@ -90,5 +90,5 @@ public interface ${className}Mapper {
 						"#{${pk.attrname}}" + 
 					"</foreach>"+
 			"</script>")
-	int batchRemove(${pk.attrType}[] ${pk.attrname}s);
+	int batchDel(${pk.attrType}[] ${pk.attrname}s);
 }

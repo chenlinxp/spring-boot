@@ -48,8 +48,8 @@ public class OrganServiceImpl implements OrganService {
 	}
 	
 	@Override
-	public int batchRemove(String[] organids){
-		return organDao.batchRemove(organids);
+	public int batchDel(String[] organids){
+		return organDao.batchDel(organids);
 	}
 	
 }

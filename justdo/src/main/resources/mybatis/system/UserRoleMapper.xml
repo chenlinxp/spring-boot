@@ -64,7 +64,7 @@
 		delete from sys_user_role where id = #{value}
 	</delete>
 
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_user_role where id in
 		<foreach item="id" collection="array" open="(" separator=","
 			close=")">
@@ -86,7 +86,7 @@
 		delete from sys_user_role where role_id=#{roleId}
 	</delete>
 
-	<delete id="batchRemoveByUserId">
+	<delete id="batchDelByUserId">
 		delete from sys_user_role where user_id in
 		<foreach item="id" collection="array" open="(" separator=","
 			close=")">

@@ -76,7 +76,7 @@
 		delete from sys_dept where dept_id = #{value}
 	</delete>
 
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_dept where dept_id in
 		<foreach item="deptId" collection="array" open="(" separator=","
 			close=")">

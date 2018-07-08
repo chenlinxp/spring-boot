@@ -119,7 +119,7 @@
 		delete from sys_organ where ORGANID = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_organ where ORGANID in 
 		<foreach item="organid" collection="array" open="(" separator="," close=")">
 			#{organid}

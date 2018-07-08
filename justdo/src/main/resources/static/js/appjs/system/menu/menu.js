@@ -16,7 +16,7 @@ var load = function () {
                 striped: true, // 是否各行渐变色
                 bordered: true, // 是否显示边框
                 expandAll: false, // 是否全部展开
-                // toolbar : '#exampleToolbar',
+                // toolbar : '#bToolbar',
                 columns: [
                     {
                         title: '编号',
@@ -92,7 +92,7 @@ var load = function () {
                                 + item.menuId
                                 + '\')"><i class="fa fa-plus"></i></a> ';
                             var d = '<a class="btn btn-warning btn-sm '
-                                + s_remove_h
+                                + s_delete_h
                                 + '" href="#" title="删除"  mce_href="#" onclick="remove(\''
                                 + item.menuId
                                 + '\')"><i class="fa fa-remove"></i></a> ';
@@ -122,7 +122,7 @@ function remove(id) {
         btn: ['确定', '取消']
     }, function () {
         $.ajax({
-            url: prefix + "/remove",
+            url: prefix + "/del",
             type: "post",
             data: {
                 'id': id
@@ -150,7 +150,7 @@ function edit(id) {
     });
 }
 
-function batchRemove() {
+function batchDel() {
     // var rows = $('#bTable').bootstrapTable('getSelections');
 
 }

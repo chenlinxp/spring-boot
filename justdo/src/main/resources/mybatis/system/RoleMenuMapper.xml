@@ -64,7 +64,7 @@
 		delete from sys_role_menu where id = #{value}
 	</delete>
 
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_role_menu where id in
 		<foreach item="id" collection="array" open="(" separator=","
 			close=")">

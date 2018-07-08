@@ -26,5 +26,5 @@ public interface OrganDao {
 	
 	int remove(String ORGANID);
 	
-	int batchRemove(String[] organids);
+	int batchDel(String[] organids);
 }

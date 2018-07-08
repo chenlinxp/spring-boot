@@ -92,9 +92,9 @@ public class OrganController {
 	/**
 	 * 删除
 	 */
-	@PostMapping( "/remove")
+	@PostMapping( "/del")
 	@ResponseBody
-	@RequiresPermissions("system:organ:remove")
+	@RequiresPermissions("system:organ:del")
 	public R remove( String organid){
 		if(organService.remove(organid)>0){
 		return R.ok();
@@ -105,11 +105,11 @@ public class OrganController {
 	/**
 	 * 删除
 	 */
-	@PostMapping( "/batchRemove")
+	@PostMapping( "/batchDel")
 	@ResponseBody
-	@RequiresPermissions("system:organ:batchRemove")
+	@RequiresPermissions("system:organ:batchDel")
 	public R remove(@RequestParam("ids[]") String[] organids){
-		organService.batchRemove(organids);
+		organService.batchDel(organids);
 		return R.ok();
 	}
 	

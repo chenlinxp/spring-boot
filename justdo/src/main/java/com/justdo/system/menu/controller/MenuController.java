@@ -101,8 +101,8 @@ public class MenuController extends BaseController {
 	}
 
 	@Log("删除菜单")
-	@RequiresPermissions("system:menu:remove")
-	@PostMapping("/remove")
+	@RequiresPermissions("system:menu:del")
+	@PostMapping("/del")
 	@ResponseBody
 	R remove(Long id) {
 		if (menuService.remove(id) > 0) {

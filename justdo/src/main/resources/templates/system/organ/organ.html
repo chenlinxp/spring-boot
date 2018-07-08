@@ -15,7 +15,7 @@
 							<button shiro:hasPermission="system:organ:edit" type="button" class="btn  btn-primary" onclick="edit()">
                                 <i class="fa fa-edit" aria-hidden="true"></i>编辑
                             </button>
-							<button shiro:hasPermission="system:organ:batchRemove" type="button" class="btn  btn-danger" onclick="batchRemove()">
+							<button shiro:hasPermission="system:organ:batchDel" type="button" class="btn  btn-danger" onclick="batchDel()">
 								<i class="fa fa-trash" aria-hidden="true"></i>删除
 							</button>
 						</div>
@@ -37,7 +37,7 @@
 		<div>
 			<script type="text/javascript">
 				var s_edit_h = 'hidden';
-				var s_remove_h = 'hidden';
+				var s_delete_h = 'hidden';
 				var s_resetPwd_h = 'hidden';
 			</script>
 		</div>
@@ -46,9 +46,9 @@
 				s_edit_h = '';
 			</script>
 		</div>
-		<div shiro:hasPermission="system:organ:remove">
+		<div shiro:hasPermission="system:organ:del">
 			<script type="text/javascript">
-				var s_remove_h = '';
+				var s_delete_h = '';
 			</script>
 		</div>
 	</div>

@@ -93,9 +93,9 @@ public class ${className}Controller {
 	/**
 	 * 删除
 	 */
-	@PostMapping( "/remove")
+	@PostMapping( "/del")
 	@ResponseBody
-	@RequiresPermissions("${pathName}:${classname}:remove")
+	@RequiresPermissions("${pathName}:${classname}:del")
 	public R remove( ${pk.attrType} ${pk.attrname}){
 		if(${classname}Service.remove(${pk.attrname})>0){
 		return R.ok();
@@ -106,11 +106,11 @@ public class ${className}Controller {
 	/**
 	 * 删除
 	 */
-	@PostMapping( "/batchRemove")
+	@PostMapping( "/batchDel")
 	@ResponseBody
-	@RequiresPermissions("${pathName}:${classname}:batchRemove")
+	@RequiresPermissions("${pathName}:${classname}:batchDel")
 	public R remove(@RequestParam("ids[]") ${pk.attrType}[] ${pk.attrname}s){
-		${classname}Service.batchRemove(${pk.attrname}s);
+		${classname}Service.batchDel(${pk.attrname}s);
 		return R.ok();
 	}
 	

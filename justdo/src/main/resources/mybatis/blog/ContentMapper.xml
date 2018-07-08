@@ -137,7 +137,7 @@
 		delete from blog_content where cid = #{value}
 	</delete>
 	
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from blog_content where cid in 
 		<foreach item="cid" collection="array" open="(" separator="," close=")">
 			#{cid}

@@ -107,7 +107,7 @@ function load() {
 				//	showToggle : true,
 				//	showColumns : true,
 				iconSize : 'outline',
-				toolbar : '#exampleToolbar',
+				toolbar : '#bToolbar',
 				striped : true, // 设置为true会有隔行变色效果
 				dataType : "json", // 服务器返回的数据类型
 				pagination : true, // 设置为true会在底部显示分页条
@@ -237,7 +237,7 @@ function load() {
 							var e = '<a class="btn btn-primary btn-sm ' + s_edit_h + '" href="#" mce_href="#" title="编辑" onclick="edit(\''
 								+ row.id
 								+ '\')"><i class="fa fa-edit"></i></a> ';
-							var d = '<a class="btn btn-warning btn-sm ' + s_remove_h + '" href="#" title="删除"  mce_href="#" onclick="remove(\''
+							var d = '<a class="btn btn-warning btn-sm ' + s_delete_h + '" href="#" title="删除"  mce_href="#" onclick="remove(\''
 								+ row.id
 								+ '\')"><i class="fa fa-remove"></i></a> ';
 							var f = '<a class="btn btn-success btn-sm ' + s_add_h + '" href="#" title="增加"  mce_href="#" onclick="addD(\''
@@ -292,7 +292,7 @@ function remove(id) {
 		btn : [ '确定', '取消' ]
 	}, function() {
 		$.ajax({
-			url : prefix + "/remove",
+			url : prefix + "/del",
 			type : "post",
 			data : {
 				'id' : id
@@ -319,7 +319,7 @@ function addD(type,description) {
 		content : prefix + '/add/'+type+'/'+description // iframe的url
 	});
 }
-function batchRemove() {
+function batchDel() {
 	var table=$('#bTable');
 	var rows = table.bootstrapTable('getSelections'); // 返回所有选择的行，当没有选择的记录时，返回一个空数组
 	if (rows.length == 0) {
@@ -340,7 +340,7 @@ function batchRemove() {
 			data : {
 				"ids" : ids
 			},
-			url : prefix + '/batchRemove',
+			url : prefix + '/batchDel',
 			success : function(r) {
 				if (r.code == 0) {
 					layer.msg(r.msg);

@@ -102,7 +102,7 @@
 		delete from sys_menu where menu_id = #{value}
 	</delete>
 
-	<delete id="batchRemove">
+	<delete id="batchDel">
 		delete from sys_menu where menu_id in
 		<foreach item="menuId" collection="array" open="(" separator=","
 			close=")">
