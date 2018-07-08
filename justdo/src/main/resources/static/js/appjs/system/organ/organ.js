@@ -58,63 +58,64 @@ function load() {
 										return (pageNumber-1)*pageSize+index+1;
 									}
 								},
-																{
+								{
 									field : 'organid', 
-									title : '机构ID' 
+									title : '机构ID',
+	                                visible : false
 								},
-																{
+								{
 									field : 'organpid', 
 									title : '机构上级ID' 
 								},
-																{
+								{
 									field : 'organname', 
 									title : '机构名称' 
 								},
-																{
+								{
 									field : 'areaid', 
 									title : '机构所属的地区编号' 
 								},
-																{
+								{
 									field : 'organcode', 
 									title : '机构编码' 
 								},
-																{
+								{
 									field : 'organalias', 
 									title : '机构别名' 
 								},
-																{
+								{
 									field : 'postcode', 
 									title : '邮编' 
 								},
-																{
+								{
 									field : 'address', 
 									title : '机构地址' 
 								},
-																{
+								{
 									field : 'telephone', 
 									title : '机构电话' 
 								},
-																{
+								{
 									field : 'fax', 
 									title : '机构的传真号码' 
 								},
-																{
+								{
 									field : 'isvalidation', 
 									title : '是否有效' 
 								},
-																{
+								{
 									field : 'organman', 
 									title : '负责人姓名' 
 								},
-																{
+								{
 									field : 'organmanid', 
 									title : '' 
 								},
-																{
+								{
 									field : 'remark', 
 									title : '机构备注信息' 
 								},
-																{
+								{
 									title : '操作',
 									field : 'operation',
 									align : 'center',
