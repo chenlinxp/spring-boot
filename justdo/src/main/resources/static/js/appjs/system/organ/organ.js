@@ -37,6 +37,13 @@ function load() {
 					           // username:$('#searchName').val()
 							};
 						},
+                        onClickRow: function (row, element) {
+                            $('.success').removeClass('success');//去除之前选中的行的，选中样式
+                            $(element).addClass('success');//添加当前选中的 success样式用于区别
+                            $("#bTable").bootstrapTable("uncheckAll");
+                            var rowindex=$(element).attr("data-index");
+                            $("#bTable").bootstrapTable('check',rowindex);
+                        },
 						// //请求服务器数据时，你可以通过重写参数的方式添加一些额外的参数，例如 toolbar 中的参数 如果
 						// queryParamsType = 'limit' ,返回参数必须包含
 						// limit, offset, search, sort, order 否则, 需要包含:
@@ -65,15 +72,12 @@ function load() {
 								},
 								{
 									field : 'organpid', 
-									title : '机构上级ID' 
-								},
+									title : '机构上级ID',
+                                    visible : false
+                                },
 								{
 									field : 'organname', 
 									title : '机构名称' 
-								},
-								{
-									field : 'areaid', 
-									title : '机构所属的地区编号' 
 								},
 								{
 									field : 'organcode', 
@@ -84,8 +88,13 @@ function load() {
 									title : '机构别名' 
 								},
 								{
+									field : 'areaid',
+									title : '地区编号'
+								},
+								{
 									field : 'postcode', 
-									title : '邮编' 
+									title : '邮政邮编' ,
+									visible : false
 								},
 								{
 									field : 'address', 
@@ -93,42 +102,48 @@ function load() {
 								},
 								{
 									field : 'telephone', 
-									title : '机构电话' 
+									title : '机构电话' ,
+                                    visible : false
 								},
 								{
 									field : 'fax', 
-									title : '机构的传真号码' 
+									title : '传真号码' ,
+                                    visible : false
+
 								},
 								{
 									field : 'isvalidation', 
-									title : '是否有效' 
+									title : '是否有效',
+									visible : false
 								},
 								{
 									field : 'organman', 
-									title : '负责人姓名' 
+									title : '负责人姓名' ,
+                                    visible : false
 								},
 								{
 									field : 'organmanid', 
-									title : '' 
+									title : '负责人编码' ,
+                                    visible : false
 								},
 								{
 									field : 'remark', 
-									title : '机构备注信息' 
-								},
-								{
-									title : '操作',
-									field : 'operation',
-									align : 'center',
-									formatter : function(value, row, index) {
-										var e = '<a class="btn btn-primary btn-sm '+s_edit_h+'" href="#" mce_href="#" title="编辑" onclick="edit(\''
-												+ row.organid
-												+ '\')"><i class="fa fa-edit"></i></a> ';
-										var d = '<a class="btn btn-warning btn-sm '+s_delete_h+'" href="#" title="删除"  mce_href="#" onclick="del(\''
-												+ row.organid
-												+ '\')"><i class="fa fa-remove"></i></a> ';
-										return e + d ;
-									}
-								} ]
+									title : '机构备注信息'
+								}]
+								// {
+								// 	title : '操作',
+								// 	field : 'operation',
+								// 	align : 'center',
+								// 	formatter : function(value, row, index) {
+								// 		var e = '<a class="btn btn-primary btn-sm '+s_edit_h+'" href="#" mce_href="#" title="编辑" onclick="edit(\''
+								// 				+ row.organid
+								// 				+ '\')"><i class="fa fa-edit"></i></a> ';
+								// 		var d = '<a class="btn btn-warning btn-sm '+s_delete_h+'" href="#" title="删除"  mce_href="#" onclick="del(\''
+								// 				+ row.organid
+								// 				+ '\')"><i class="fa fa-remove"></i></a> ';
+								// 		return e + d ;
+								// 	}
+								// } ]
 					});
 }
 function reLoad() {
@@ -151,7 +166,7 @@ function edit(id) {
             layer.msg("请选择一条要修改的数据");
             return;
         }else{
-        	id=row[0]['organid'];
+        	id=rows[0]['organid'];
         }
     }
 	layer.open({

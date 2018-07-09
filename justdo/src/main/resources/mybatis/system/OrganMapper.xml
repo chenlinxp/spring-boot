@@ -59,6 +59,9 @@
 	</select>
 	 
 	<insert id="save" parameterType="com.justdo.system.organ.domain.OrganDO">
+		<selectKey keyProperty="organid" resultType="string" order="BEFORE">
+			select replace(uuid(), '-', '') as organid from dual
+		</selectKey>
 		insert into sys_organ
 		(
 			`ORGANID`, 
@@ -98,7 +101,6 @@
 	<update id="update" parameterType="com.justdo.system.organ.domain.OrganDO">
 		update sys_organ 
 		<set>
-			<if test="organpid != null">`ORGANPID` = #{organpid}, </if>
 			<if test="organname != null">`ORGANNAME` = #{organname}, </if>
 			<if test="areaid != null">`AREAID` = #{areaid}, </if>
 			<if test="organcode != null">`ORGANCODE` = #{organcode}, </if>
