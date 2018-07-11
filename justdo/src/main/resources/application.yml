@@ -25,7 +25,8 @@ spring:
       max-request-size: 30Mb
   devtools:
     restart:
-      enabled: true    
+      enabled: true
+      trigger-file: trigger.txt
 mybatis: 
   configuration:
     map-underscore-to-camel-case: true

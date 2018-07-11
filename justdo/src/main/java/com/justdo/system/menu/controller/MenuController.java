@@ -96,7 +96,7 @@ public class MenuController extends BaseController {
 		if (menuService.update(menu) > 0) {
 			return R.ok();
 		} else {
-			return R.error(1, "更新失败");
+			return R.error(1, "更新失败!");
 		}
 	}
 

@@ -28,7 +28,8 @@ $(function() {
     // })
 
     //点击选中列，判断checkbox选中与取消选中
-    // $($(bTable).on).on('click-cell.bs.table', function (e,field,value, row, $element){
+    // $($(bTable).on).on('click-row.bs.table', function (e,field,value, row, $element){
+
     //     if(field=="chkbox"||field=="id"){//根据某个字段名判断
     //         if($("chkbox").is(':checked')) {
     //             $("chkbox").prop("checked",false);

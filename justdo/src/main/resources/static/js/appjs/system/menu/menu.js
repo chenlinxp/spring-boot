@@ -1,6 +1,12 @@
 var prefix = "/system/menu"
 $(document).ready(function () {
     load();
+    //点击选中列
+    $("#bTable").on("click-row.bs.table",function (e,row,element) {
+        alert("123");
+        $('.success').removeClass('success');//去除之前选中的行的，选中样式
+        $(element).addClass('success');//添加当前选中的 success样式用于区别
+    });
 });
 var load = function () {
     $('#bTable')
@@ -12,12 +18,19 @@ var load = function () {
                 type: "GET", // 请求数据的ajax类型
                 url: prefix + '/list', // 请求数据的ajax的url
                 ajaxParams: {sort:'order_num'}, // 请求数据的ajax的data属性
-                expandColumn: '1',// 在哪一列上面显示展开按钮
+                expandColumn: '2',// 在哪一列上面显示展开按钮
                 striped: true, // 是否各行渐变色
                 bordered: true, // 是否显示边框
                 expandAll: false, // 是否全部展开
-                // toolbar : '#bToolbar',
+                toolbar : '#bToolbar',
+                onClickRow: function (row, element) {
+                    $('.success').removeClass('success');//去除之前选中的行的，选中样式
+                    $(element).addClass('success');//添加当前选中的 success样式用于区别
+                },
                 columns: [
+                    {
+                        checkbox : true
+                    },
                     {
                         title: '编号',
                         field: 'menuId',
